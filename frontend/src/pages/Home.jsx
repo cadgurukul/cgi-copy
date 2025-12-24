@@ -72,7 +72,7 @@ const Home = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="p-3 border-2 border-gray-900 rounded-lg">
-                  <PuzzlePiece className="h-8 w-8 text-gray-900" />
+                  <Package className="h-8 w-8 text-gray-900" />
                 </div>
                 <h2 className="text-2xl font-bold text-gray-900">Solutions</h2>
               </div>
