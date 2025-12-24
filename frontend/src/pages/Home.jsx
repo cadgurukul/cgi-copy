@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeroCarousel from '../components/HeroCarousel';
-import { Lightbulb, Network, PuzzlePiece, ArrowRight } from 'lucide-react';
+import { Lightbulb, Network, Package, ArrowRight } from 'lucide-react';
 import { heroSlides, industries, services, solutions, caseStudies, experts, news } from '../mockData';
 
 const Home = () => {
