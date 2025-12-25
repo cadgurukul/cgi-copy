@@ -138,7 +138,7 @@ const Home = () => {
       </section>
 
       {/* Expert Insights Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto px-6">
           <p className="text-lg text-gray-700 mb-8 max-w-4xl">
             Through our global insights and local experts, we help build the strategies and deliver the end-to-end services that help clients achieve meaningful and sustainable outcomes.
