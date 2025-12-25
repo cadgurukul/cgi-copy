@@ -63,19 +63,19 @@ const Header = () => {
             {menuItems.map((item) => (
               <div
                 key={item.name}
-                className="relative"
+                className="relative group"
                 onMouseEnter={() => setActiveDropdown(item.name)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
                 {item.link ? (
                   <Link
                     to={item.link}
-                    className="text-gray-800 hover:text-[#E31937] font-medium text-sm flex items-center transition-colors"
+                    className="text-gray-800 hover:text-[#E31937] font-medium text-sm flex items-center transition-colors py-6"
                   >
                     {item.name}
                   </Link>
                 ) : (
-                  <button className="text-gray-800 hover:text-[#E31937] font-medium text-sm flex items-center transition-colors">
+                  <button className="text-gray-800 hover:text-[#E31937] font-medium text-sm flex items-center transition-colors py-6">
                     {item.name}
                     <ChevronDown className="ml-1 h-4 w-4" />
                   </button>
@@ -83,7 +83,7 @@ const Header = () => {
 
                 {/* Dropdown */}
                 {item.items && activeDropdown === item.name && (
-                  <div className="absolute left-0 top-full mt-2 w-64 bg-white shadow-lg border border-gray-200 py-2">
+                  <div className="absolute left-0 top-full w-64 bg-white shadow-lg border border-gray-200 py-2 z-50">
                     {item.items.map((subItem) => (
                       <Link
                         key={subItem.name}
