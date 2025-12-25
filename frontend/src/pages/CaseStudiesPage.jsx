@@ -46,7 +46,7 @@ const CaseStudiesPage = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-20">
+      <section className="bg-[#F8F8F8] py-20">
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Client success stories</h1>
           <p className="text-xl text-gray-700 max-w-3xl">
