@@ -1,0 +1,322 @@
+Page,Section,Subsection,Text Content
+NAVIGATION,Header,Logo,CGI
+NAVIGATION,Header,Main Menu,Services
+NAVIGATION,Header,Main Menu,Industries
+NAVIGATION,Header,Main Menu,Insights
+NAVIGATION,Header,Main Menu,Careers
+NAVIGATION,Header,Main Menu,Investors
+NAVIGATION,Header,Secondary Menu,Contact
+NAVIGATION,Header,Secondary Menu,Global
+NAVIGATION,Header,Secondary Menu,EN
+
+HOME,Hero Carousel,Slide 1 - Title,From AI vision to value
+HOME,Hero Carousel,Slide 1 - Description,Explore bold human-centered AI thinking practical expert insights and success stories that help clients accelerate innovation confidently.
+HOME,Hero Carousel,Slide 1 - CTA,Explore the ideas driving smarter human-led innovation
+
+HOME,Hero Carousel,Slide 2 - Title,Redefining global capability centers (GCCs) into AI-powered innovation hubs
+HOME,Hero Carousel,Slide 2 - Description,By transforming GCCs into strategic growth hubs we help clients unlock agility resiliency and innovation in an AI-first world.
+HOME,Hero Carousel,Slide 2 - CTA,Discover your organization's next growth engine
+
+HOME,Hero Carousel,Slide 3 - Title,Reimagining insurance through modernization
+HOME,Hero Carousel,Slide 3 - Description,With our help MAPFRE USA migrated to a modern core platform driving faster claims better underwriting and data-powered growth.
+HOME,Hero Carousel,Slide 3 - CTA,Read the client success story
+
+HOME,Hero Carousel,Slide 4 - Title,Build your career with us
+HOME,Hero Carousel,Slide 4 - Description,We're recruiting top talent for roles that drive innovation and build our shared future.
+HOME,Hero Carousel,Slide 4 - CTA,Explore top roles that power impact
+
+HOME,Insights Section,Section Title,Insights
+HOME,Insights Section,Description,We provide a global antenna based on facts not hype to help improve returns on your IT and business investments.
+HOME,Insights Section,Link 1,Banking
+HOME,Insights Section,Link 2,Government
+HOME,Insights Section,Link 3,Health
+HOME,Insights Section,Link 4,Manufacturing
+HOME,Insights Section,Link 5,Retail
+HOME,Insights Section,Link 6,Energy & utilities
+HOME,Insights Section,CTA,Explore all industries →
+
+HOME,Services Section,Section Title,Services
+HOME,Services Section,Description,We help you meet the ever-evolving digital expectations of your customers and citizens through our secure and flexible end-to-end services.
+HOME,Services Section,Link 1,Business consulting
+HOME,Services Section,Link 2,Business process services
+HOME,Services Section,Link 3,Managed IT services
+HOME,Services Section,Link 4,Artificial intelligence
+HOME,Services Section,Link 5,Data analytics
+HOME,Services Section,Link 6,Cloud & hybrid IT
+HOME,Services Section,CTA,Explore end-to-end services →
+
+HOME,Solutions Section,Section Title,Solutions
+HOME,Solutions Section,Description,Our intellectual property-based solutions help you accelerate innovation and drive operational excellence.
+HOME,Solutions Section,Link 1,CGI Credit Studio
+HOME,Solutions Section,Link 2,CGI PulseAI
+HOME,Solutions Section,Link 3,CGI Trade360
+HOME,Solutions Section,Link 4,CGI OpenGrid360
+HOME,Solutions Section,Link 5,CGI All Payments
+HOME,Solutions Section,Link 6,CGI Retail Suite
+HOME,Solutions Section,CTA,Explore all solutions →
+
+HOME,Case Studies,Section Title,Case studies
+HOME,Case Studies,Card 1,Setra Group: Driving standardization at scale with a unified MES platform
+HOME,Case Studies,Card 2,Volkswagen Group & CGI: Reimagining managed services
+HOME,Case Studies,Card 3,Driving a cloud-ready SAP transformation
+HOME,Case Studies,Card 4,CGI helps U.S. bank drive efficiencies through debt recovery modernization
+HOME,Case Studies,CTA,Discover more of our clients' successes
+
+HOME,Expert Insights,Introduction,Through our global insights and local experts we help build the strategies and deliver the end-to-end services that help clients achieve meaningful and sustainable outcomes.
+HOME,Expert Insights,Expert 1 - Name,Ethel Colsen
+HOME,Expert Insights,Expert 1 - Topic,How digital manufacturing clouds unlock collaboration between IT and business
+HOME,Expert Insights,Expert 2 - Name,Helena Jochberger
+HOME,Expert Insights,Expert 2 - Topic,AI impact on management consulting
+HOME,Expert Insights,Expert 3 - Name,Lara Ozanne
+HOME,Expert Insights,Expert 3 - Topic,Overcoming OCIO challenges to deliver real business value
+HOME,Expert Insights,CTA,Explore advice and commentary from our experts
+
+HOME,Video Section,Title,CGI – by your side every day
+HOME,Video Section,Content,YouTube embedded video
+
+HOME,Latest News,Section Title,Latest news
+HOME,Latest News,Article 1,CGI files 2025 Annual Disclosure Documents
+HOME,Latest News,Article 1 Type,Press release
+HOME,Latest News,Article 2,CGI to deliver secure mobile communications solution for NATO
+HOME,Latest News,Article 2 Type,Press release
+HOME,Latest News,Article 3,CGI expands its Winnipeg presence and Canadian footprint with the acquisition of Online Business Systems
+HOME,Latest News,Article 3 Type,Press release
+HOME,Latest News,CTA,See more
+
+SERVICES,Hero Section,Title,End-to-end services
+SERVICES,Hero Section,Description,We help you meet the ever-evolving digital expectations of your customers and citizens through our secure and flexible end-to-end services.
+
+SERVICES,Service Detail 1,Title,Business consulting
+SERVICES,Service Detail 1,Description,Strategic advisory services that help you navigate complex business challenges and drive meaningful transformation.
+SERVICES,Service Detail 1,Benefit 1,Strategic planning
+SERVICES,Service Detail 1,Benefit 2,Digital transformation
+SERVICES,Service Detail 1,Benefit 3,Process optimization
+SERVICES,Service Detail 1,Benefit 4,Change management
+
+SERVICES,Service Detail 2,Title,Business process services
+SERVICES,Service Detail 2,Description,Comprehensive BPS solutions that streamline operations and enhance efficiency across your organization.
+SERVICES,Service Detail 2,Benefit 1,Process automation
+SERVICES,Service Detail 2,Benefit 2,Workflow optimization
+SERVICES,Service Detail 2,Benefit 3,Cost reduction
+SERVICES,Service Detail 2,Benefit 4,Quality improvement
+
+SERVICES,Service Detail 3,Title,Managed IT services
+SERVICES,Service Detail 3,Description,End-to-end IT management that allows you to focus on your core business while we handle your technology needs.
+SERVICES,Service Detail 3,Benefit 1,24/7 support
+SERVICES,Service Detail 3,Benefit 2,Infrastructure management
+SERVICES,Service Detail 3,Benefit 3,Security monitoring
+SERVICES,Service Detail 3,Benefit 4,Performance optimization
+
+SERVICES,Service Detail 4,Title,Artificial intelligence
+SERVICES,Service Detail 4,Description,AI solutions that transform data into actionable insights and drive intelligent automation across your enterprise.
+SERVICES,Service Detail 4,Benefit 1,Machine learning
+SERVICES,Service Detail 4,Benefit 2,Natural language processing
+SERVICES,Service Detail 4,Benefit 3,Computer vision
+SERVICES,Service Detail 4,Benefit 4,Predictive analytics
+
+SERVICES,Service Detail 5,Title,Data analytics
+SERVICES,Service Detail 5,Description,Advanced analytics capabilities that unlock the value of your data and drive data-driven decision making.
+SERVICES,Service Detail 5,Benefit 1,Business intelligence
+SERVICES,Service Detail 5,Benefit 2,Advanced analytics
+SERVICES,Service Detail 5,Benefit 3,Data visualization
+SERVICES,Service Detail 5,Benefit 4,Real-time insights
+
+SERVICES,Service Detail 6,Title,Cloud & hybrid IT
+SERVICES,Service Detail 6,Description,Cloud solutions that provide the flexibility scalability and security your business needs to thrive.
+SERVICES,Service Detail 6,Benefit 1,Cloud migration
+SERVICES,Service Detail 6,Benefit 2,Hybrid cloud
+SERVICES,Service Detail 6,Benefit 3,Cloud security
+SERVICES,Service Detail 6,Benefit 4,Cloud optimization
+
+SERVICES,CTA Section,Title,Ready to transform your business?
+SERVICES,CTA Section,Description,Let's discuss how our services can help you achieve your business objectives.
+SERVICES,CTA Section,Button,Contact us
+
+INDUSTRIES,Hero Section,Title,Industries we serve
+INDUSTRIES,Hero Section,Description,We provide industry-specific insights and solutions that help you navigate unique challenges and seize opportunities in your sector.
+
+INDUSTRIES,Industry Card 1,Title,Banking
+INDUSTRIES,Industry Card 1,Description,Helping financial institutions modernize operations enhance customer experiences and navigate regulatory challenges.
+
+INDUSTRIES,Industry Card 2,Title,Government
+INDUSTRIES,Industry Card 2,Description,Supporting government agencies in delivering better services to citizens through digital transformation and modernization.
+
+INDUSTRIES,Industry Card 3,Title,Health
+INDUSTRIES,Industry Card 3,Description,Transforming healthcare delivery with innovative technology solutions that improve patient outcomes and operational efficiency.
+
+INDUSTRIES,Industry Card 4,Title,Manufacturing
+INDUSTRIES,Industry Card 4,Description,Enabling manufacturers to optimize operations improve supply chain visibility and embrace Industry 4.0.
+
+INDUSTRIES,Industry Card 5,Title,Retail
+INDUSTRIES,Industry Card 5,Description,Helping retailers create seamless omnichannel experiences and adapt to changing consumer expectations.
+
+INDUSTRIES,Industry Card 6,Title,Energy & utilities
+INDUSTRIES,Industry Card 6,Description,Supporting energy and utility companies in their transition to sustainable digital-first operations.
+
+INDUSTRIES,Voice of Clients,Title,Voice of our clients
+INDUSTRIES,Voice of Clients,Description,Every year we conduct thousands of in-depth client interviews to understand their priorities challenges and expectations.
+INDUSTRIES,Voice of Clients,CTA,Read the latest insights
+
+CASE STUDIES,Hero Section,Title,Client success stories
+CASE STUDIES,Hero Section,Description,Discover how we've helped clients across industries achieve meaningful and sustainable outcomes through our expertise and partnership.
+
+CASE STUDIES,Case Grid,Item 1,Setra Group: Driving standardization at scale with a unified MES platform
+CASE STUDIES,Case Grid,Item 2,Volkswagen Group & CGI: Reimagining managed services
+CASE STUDIES,Case Grid,Item 3,Driving a cloud-ready SAP transformation
+CASE STUDIES,Case Grid,Item 4,CGI helps U.S. bank drive efficiencies through debt recovery modernization
+CASE STUDIES,Case Grid,Item 5,Transforming customer experience for a leading telecom provider
+CASE STUDIES,Case Grid,Item 6,Modernizing legacy systems for a global bank
+CASE STUDIES,Case Grid,Item 7,Building a smart city platform for urban innovation
+CASE STUDIES,Case Grid,Item 8,Implementing AI-powered supply chain optimization
+CASE STUDIES,Case Grid,Item 9,Digital transformation in healthcare delivery
+
+CASE STUDIES,CTA Section,Title,Ready to write your success story?
+CASE STUDIES,CTA Section,Description,Let's explore how we can help you achieve your business objectives.
+CASE STUDIES,CTA Section,Button,Get in touch
+
+CAREERS,Hero Section,Title,Build your career with CGI
+CAREERS,Hero Section,Description,Join a global team of professionals dedicated to making a difference. At CGI we're committed to your growth innovation and success.
+
+CAREERS,Why CGI Section,Title,Why CGI?
+CAREERS,Why CGI Section,Paragraph,As one of the world's largest IT and business consulting firms we offer unparalleled opportunities for professional growth and development. Our member-owner culture ensures that everyone has a voice and a stake in our success.
+CAREERS,Why CGI Section,Benefit 1,Competitive compensation and benefits
+CAREERS,Why CGI Section,Benefit 2,Flexible work arrangements
+CAREERS,Why CGI Section,Benefit 3,Professional development opportunities
+CAREERS,Why CGI Section,Benefit 4,Collaborative and inclusive culture
+CAREERS,Why CGI Section,Benefit 5,Global career mobility
+CAREERS,Why CGI Section,Benefit 6,Work-life balance support
+
+CAREERS,Open Positions,Title,Open positions
+CAREERS,Open Positions,Job 1 Title,Cloud Solutions Architect
+CAREERS,Open Positions,Job 1 Location,Multiple locations
+CAREERS,Open Positions,Job 1 Type,Full-time
+CAREERS,Open Positions,Job 1 Description,Design and implement cloud infrastructure solutions for enterprise clients.
+
+CAREERS,Open Positions,Job 2 Title,AI/ML Engineer
+CAREERS,Open Positions,Job 2 Location,Remote
+CAREERS,Open Positions,Job 2 Type,Full-time
+CAREERS,Open Positions,Job 2 Description,Develop cutting-edge AI solutions that drive business transformation.
+
+CAREERS,Open Positions,Job 3 Title,Business Consultant
+CAREERS,Open Positions,Job 3 Location,New York NY
+CAREERS,Open Positions,Job 3 Type,Full-time
+CAREERS,Open Positions,Job 3 Description,Partner with clients to deliver strategic business insights and outcomes.
+
+CAREERS,Open Positions,Job 4 Title,Cybersecurity Specialist
+CAREERS,Open Positions,Job 4 Location,Washington DC
+CAREERS,Open Positions,Job 4 Type,Full-time
+CAREERS,Open Positions,Job 4 Description,Protect critical infrastructure and data for government clients.
+
+CAREERS,Submit Resume,Title,Can't find the right role?
+CAREERS,Submit Resume,Description,Submit your resume and we'll keep you in mind for future opportunities that match your skills and interests.
+CAREERS,Submit Resume,Button,Submit your resume
+
+CONTACT,Hero Section,Title,Contact us
+CONTACT,Hero Section,Description,Let's discuss how CGI can help you achieve your business objectives. Reach out to us and we'll connect you with the right experts.
+
+CONTACT,Contact Form,Title,Get in touch
+CONTACT,Contact Form,Field 1,First name *
+CONTACT,Contact Form,Field 2,Last name *
+CONTACT,Contact Form,Field 3,Email *
+CONTACT,Contact Form,Field 4,Company *
+CONTACT,Contact Form,Field 5,Phone
+CONTACT,Contact Form,Field 6,Country *
+CONTACT,Contact Form,Field 7,Message *
+CONTACT,Contact Form,Button,Send message
+
+CONTACT,Contact Info,Title,Contact information
+CONTACT,Contact Info,HQ Label,Global headquarters
+CONTACT,Contact Info,HQ Address,1350 René-Lévesque Blvd. West
+CONTACT,Contact Info,HQ City,Montreal Quebec H3G 1T4
+CONTACT,Contact Info,HQ Country,Canada
+CONTACT,Contact Info,Phone Label,Phone
+CONTACT,Contact Info,Phone Number,+1 514 841 3200
+CONTACT,Contact Info,Email Label,Email
+CONTACT,Contact Info,Email Address,info@cgi.com
+
+CONTACT,Global Presence,Title,Global presence
+CONTACT,Global Presence,Description,With over 400 locations worldwide we're close to our clients no matter where they operate.
+CONTACT,Global Presence,CTA,Find a location near you →
+
+ABOUT,Hero Section,Title,About CGI
+ABOUT,Hero Section,Description,Founded in 1976 CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcomes-based to help accelerate returns on your investments.
+
+ABOUT,Stats Section,Stat 1 Value,94000+
+ABOUT,Stats Section,Stat 1 Label,Professionals worldwide
+ABOUT,Stats Section,Stat 2 Value,400+
+ABOUT,Stats Section,Stat 2 Label,Locations globally
+ABOUT,Stats Section,Stat 3 Value,48+
+ABOUT,Stats Section,Stat 3 Label,Years of experience
+ABOUT,Stats Section,Stat 4 Value,$14B+
+ABOUT,Stats Section,Stat 4 Label,Annual revenue
+
+ABOUT,Our Story,Title,Our story
+ABOUT,Our Story,Paragraph 1,Since our founding in 1976 CGI has grown from a small Canadian startup to one of the world's largest independent IT and business consulting services firms.
+ABOUT,Our Story,Paragraph 2,Our success is built on a unique member-owner culture where our professionals are also shareholders. This structure aligns our interests with those of our clients and ensures long-term commitment to quality and excellence.
+ABOUT,Our Story,Paragraph 3,Today we operate in hundreds of locations across the globe serving thousands of clients in virtually every industry. Our proximity model ensures we're always close to our clients understanding their unique challenges and opportunities.
+
+ABOUT,Values Section,Title,Our values
+ABOUT,Values Section,Value 1 Title,Partnership
+ABOUT,Values Section,Value 1 Description,We work side-by-side with our clients as trusted advisors not just service providers.
+ABOUT,Values Section,Value 2 Title,Quality
+ABOUT,Values Section,Value 2 Description,We deliver excellence in everything we do ensuring sustainable outcomes for our clients.
+ABOUT,Values Section,Value 3 Title,Integrity
+ABOUT,Values Section,Value 3 Description,We operate with transparency honesty and respect in all our relationships.
+ABOUT,Values Section,Value 4 Title,Innovation
+ABOUT,Values Section,Value 4 Description,We continuously evolve our capabilities to help clients navigate changing technology landscapes.
+
+ABOUT,Leadership Section,Title,Leadership
+ABOUT,Leadership Section,Description,Our leadership team brings decades of experience in technology business consulting and strategic management to guide CGI's vision and operations.
+ABOUT,Leadership Section,Leader 1 Name,George D. Schindler
+ABOUT,Leadership Section,Leader 1 Title,President and CEO
+ABOUT,Leadership Section,Leader 2 Name,François Boulanger
+ABOUT,Leadership Section,Leader 2 Title,Executive Vice-President and CFO
+ABOUT,Leadership Section,Leader 3 Name,Stephanie Lavallee
+ABOUT,Leadership Section,Leader 3 Title,Chief Operating Officer
+
+ABOUT,CTA Section,Title,Join us on our journey
+ABOUT,CTA Section,Description,Whether you're looking for a career opportunity or a business partnership we'd love to hear from you.
+ABOUT,CTA Section,Button 1,Explore careers
+ABOUT,CTA Section,Button 2,Contact us
+
+FOOTER,Services Column,Title,Services
+FOOTER,Services Column,Link 1,Business consulting
+FOOTER,Services Column,Link 2,Business process services
+FOOTER,Services Column,Link 3,Managed IT services
+FOOTER,Services Column,Link 4,Artificial intelligence
+FOOTER,Services Column,Link 5,Data analytics
+FOOTER,Services Column,Link 6,Cloud & hybrid IT
+
+FOOTER,Industries Column,Title,Industries
+FOOTER,Industries Column,Link 1,Banking
+FOOTER,Industries Column,Link 2,Government
+FOOTER,Industries Column,Link 3,Health
+FOOTER,Industries Column,Link 4,Manufacturing
+FOOTER,Industries Column,Link 5,Retail
+FOOTER,Industries Column,Link 6,Energy & utilities
+
+FOOTER,Company Column,Title,Company
+FOOTER,Company Column,Link 1,About us
+FOOTER,Company Column,Link 2,Careers
+FOOTER,Company Column,Link 3,News
+FOOTER,Company Column,Link 4,Investors
+FOOTER,Company Column,Link 5,Contact
+FOOTER,Company Column,Link 6,Locations
+
+FOOTER,Insights Column,Title,Insights
+FOOTER,Insights Column,Link 1,Blog
+FOOTER,Insights Column,Link 2,Case studies
+FOOTER,Insights Column,Link 3,Events
+FOOTER,Insights Column,Link 4,Voice of our clients
+
+FOOTER,Social Media,Platform 1,LinkedIn
+FOOTER,Social Media,Platform 2,Twitter
+FOOTER,Social Media,Platform 3,Facebook
+FOOTER,Social Media,Platform 4,YouTube
+
+FOOTER,Bottom Links,Link 1,Privacy
+FOOTER,Bottom Links,Link 2,Legal
+FOOTER,Bottom Links,Link 3,Accessibility
+FOOTER,Bottom Links,Link 4,Sitemap
+
+FOOTER,Copyright,Text,© 2025 CGI Inc. All rights reserved.
