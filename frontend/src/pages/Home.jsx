@@ -177,7 +177,7 @@ const Home = () => {
       </section>
 
       {/* Video Section */}
-      <section className="py-16 bg-gray-900">
+      <section className="py-16 bg-[#1A1A1A]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-white mb-4">CGI – by your side, every day</h2>
