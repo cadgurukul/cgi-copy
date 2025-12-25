@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronDown, Search, Globe } from 'lucide-react';
+import { ChevronDown, Search, Globe, Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileSubmenuOpen, setMobileSubmenuOpen] = useState(null);
 
   const menuItems = [
     {
