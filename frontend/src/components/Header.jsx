@@ -54,7 +54,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
             <svg width="80" height="40" viewBox="0 0 80 40" className="text-[#E31937]">
-              <text x="10" y="28" fontSize="28" fontWeight="bold" fill="currentColor">CGI</text>
+              <text x="10" y="28" fontSize="28" fontWeight="bold" fill="currentColor">Aventra Consulting</text>
             </svg>
           </Link>
 
