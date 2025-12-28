@@ -94,13 +94,13 @@ const IndustriesPage = () => {
           <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
             Every year, we conduct thousands of in-depth client interviews to understand their priorities, challenges, and expectations.
           </p>
-          <Link
+          {/* <Link
             to="/voice-of-clients"
             className="inline-flex items-center text-[#E31937] font-semibold hover:underline text-lg"
           >
             Read the latest insights
             <ArrowRight className="ml-2 h-5 w-5" />
-          </Link>
+          </Link> */}
         </div>
       </section>
     </div>
