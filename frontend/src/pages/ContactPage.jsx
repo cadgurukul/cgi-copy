@@ -1,34 +1,41 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { useForm, ValidationError } from '@formspree/react';
+
+
+
 
 const ContactPage = () => {
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    company: '',
-    phone: '',
-    country: '',
-    message: ''
-  });
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  const [state, handleSubmit] = useForm("xvzoqvnr");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert('Thank you for your message. We will get back to you soon!');
-    setFormData({
-      firstName: '',
-      lastName: '',
-      email: '',
-      company: '',
-      phone: '',
-      country: '',
-      message: ''
-    });
-  };
+
+  //  const [formData, setFormData] = useState({
+  //     firstName: '',
+  //     lastName: '',
+  //     email: '',
+  //     company: '',
+  //     phone: '',
+  //     country: '',
+  //     message: ''
+  //   });
+  //   const handleChange = (e) => {
+  //     setFormData({ ...formData, [e.target.name]: e.target.value });
+  //   };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   alert('Thank you for your message. We will get back to you soon!');
+  //   setFormData({
+  //     firstName: '',
+  //     lastName: '',
+  //     email: '',
+  //     company: '',
+  //     phone: '',
+  //     country: '',
+  //     message: ''
+  //   });
+  // };
 
   return (
     <div className="min-h-screen">
@@ -41,8 +48,7 @@ const ContactPage = () => {
           </p>
         </div>
       </section>
-
-      {/* Contact Form and Info */}
+      {state.succeeded ? <div className="min-h-screen"><p>Thanks for contacting!</p></div> :
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
@@ -59,10 +65,15 @@ const ContactPage = () => {
                       type="text"
                       id="firstName"
                       name="firstName"
-                      required
-                      value={formData.firstName}
-                      onChange={handleChange}
+                      // required
+                      // value={formData.firstName}
+                      // onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E31937]"
+                    />
+                    <ValidationError
+                      prefix="First name"
+                      field="firstName"
+                      errors={state.errors}
                     />
                   </div>
                   <div>
@@ -73,10 +84,14 @@ const ContactPage = () => {
                       type="text"
                       id="lastName"
                       name="lastName"
-                      required
-                      value={formData.lastName}
-                      onChange={handleChange}
+                      // required
+                      // onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E31937]"
+                    />
+                    <ValidationError
+                      prefix="lastName"
+                      field="lastName"
+                      errors={state.errors}
                     />
                   </div>
                 </div>
@@ -89,10 +104,15 @@ const ContactPage = () => {
                     type="email"
                     id="email"
                     name="email"
-                    required
-                    value={formData.email}
-                    onChange={handleChange}
+                    // required
+                    // value={formData.email}
+                    // onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E31937]"
+                  />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
                   />
                 </div>
 
@@ -104,10 +124,15 @@ const ContactPage = () => {
                     type="text"
                     id="company"
                     name="company"
-                    required
-                    value={formData.company}
-                    onChange={handleChange}
+                    // required
+                    // value={formData.company}
+                    // onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E31937]"
+                  />
+                  <ValidationError
+                    prefix="Company"
+                    field="company"
+                    errors={state.errors}
                   />
                 </div>
 
@@ -119,9 +144,15 @@ const ContactPage = () => {
                     type="tel"
                     id="phone"
                     name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
+                    // value={formData.phone}
+                    // disabled={state.submitting}
+                    // onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E31937]"
+                  />
+                  <ValidationError
+                    prefix="Phone"
+                    field="phone"
+                    errors={state.errors}
                   />
                 </div>
 
@@ -132,9 +163,9 @@ const ContactPage = () => {
                   <select
                     id="country"
                     name="country"
-                    required
-                    value={formData.country}
-                    onChange={handleChange}
+                    // required
+                    // value={formData.country}
+                    // onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E31937]"
                   >
                     <option value="">Select a country</option>
@@ -145,6 +176,11 @@ const ContactPage = () => {
                     <option value="Germany">Germany</option>
                     <option value="Other">Other</option>
                   </select>
+                  <ValidationError
+                    prefix="Country"
+                    field="country"
+                    errors={state.errors}
+                  />
                 </div>
 
                 <div>
@@ -154,12 +190,17 @@ const ContactPage = () => {
                   <textarea
                     id="message"
                     name="message"
-                    required
+                    // required
                     rows={6}
-                    value={formData.message}
-                    onChange={handleChange}
+                    // value={formData.message}
+                    // onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E31937]"
                   ></textarea>
+                  <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                  />
                 </div>
 
                 <button
@@ -223,6 +264,7 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
+      }
     </div>
   );
 };
