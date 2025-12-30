@@ -17,7 +17,7 @@ const IndustriesPage = () => {
       link: '/industries/government'
     },
     {
-      name: 'Health',
+      name: 'Health Care And Medical',
       description: 'Transforming healthcare delivery with innovative technology solutions that improve patient outcomes and operational efficiency.',
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop',
       link: '/industries/health'
@@ -39,7 +39,26 @@ const IndustriesPage = () => {
       description: 'Supporting energy and utility companies in their transition to sustainable, digital-first operations.',
       image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=400&fit=crop',
       link: '/industries/energy'
-    }
+    },
+    {
+      name: 'Oil And Gas',
+      description: 'Comprehensive oil and gas consulting solutions optimizing operations, safety, compliance, and energy efficiency',
+      image: 'https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?q=80&w=849&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '/industries/energy'
+    },
+    {
+      name: 'IT',
+      description: 'Integrated IT solutions delivering reliability, innovation, and scalable digital infrastructure for modern enterprises',
+      image: 'https://plus.unsplash.com/premium_photo-1664302457363-3930f2c9f10c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '/industries/energy'
+    },
+    {
+      name: 'Insurance',
+      description: 'Insurance consulting solutions enhancing risk management, regulatory compliance, customer experience, and operational efficiency',
+      image: 'https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '/industries/energy'
+    },
+
   ];
 
   return (

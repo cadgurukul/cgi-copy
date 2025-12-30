@@ -5,6 +5,12 @@ import { ArrowRight, Check } from 'lucide-react';
 
 const ServicesPage = () => {
   const serviceDetails = [
+     {
+      name: 'IT Consulting',
+      description: 'Expert IT consulting aligning technology strategy with business goals',
+      benefits: ['Real Estate Services', ' GCC expansion', ' Technology Solution', ' Legal Assistance','Co-Location Deployment'],
+      sectionId: 'cloud-hybrid-it' 
+    },
     {
       name: 'Business consulting',
       description: 'Strategic advisory services that help you navigate complex business challenges and drive meaningful transformation.',
@@ -18,17 +24,18 @@ const ServicesPage = () => {
       sectionId: 'business-process-services'
     },
     {
-      name: 'Managed IT services',
-      description: 'End-to-end IT management that allows you to focus on your core business while we handle your technology needs.',
-      benefits: ['24/7 support', 'Infrastructure management', 'Security monitoring', 'Performance optimization'],
-      sectionId: 'managed-it-services'
-    },
-    {
       name: 'Artificial intelligence',
       description: 'AI solutions that transform data into actionable insights and drive intelligent automation across your enterprise.',
       benefits: ['Machine learning', 'Natural language processing', 'Computer vision', 'Predictive analytics'],
       sectionId: 'artificial-intelligence'
     },
+    {
+      name: 'Managed IT services',
+      description: 'End-to-end IT management that allows you to focus on your core business while we handle your technology needs.',
+      benefits: ['24/7 support', 'Infrastructure management', 'Security monitoring', 'Performance optimization'],
+      sectionId: 'managed-it-services'
+    },
+    
     {
       name: 'Data analytics',
       description: 'Advanced analytics capabilities that unlock the value of your data and drive data-driven decision making.',
@@ -41,6 +48,7 @@ const ServicesPage = () => {
       benefits: ['Cloud migration', 'Hybrid cloud', 'Cloud security', 'Cloud optimization'],
       sectionId: 'cloud-hybrid-it' 
     }
+    
   ];
 
   return (
@@ -84,7 +92,7 @@ const ServicesPage = () => {
                 <div className={index % 2 === 1 ? 'md:order-1' : ''}>
                   <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg overflow-hidden">
                     <img
-                      src={`https://images.unsplash.com/photo-${['1551434678-e076c223a692', '1460925895917-afdab827c52f', '1451187580459-43490279c0fa', '1677442136019-21780ecad995', '1551288049-bebda4e38f71', '1484480974693-6ca0a78fb36b'][index]}?w=800&h=600&fit=crop`}
+                      src={`https://images.unsplash.com/photo-${['1551434678-e076c223a692', '1460925895917-afdab827c52f', '1451187580459-43490279c0fa', '1677442136019-21780ecad995', '1551288049-bebda4e38f71', '1484480974693-6ca0a78fb36b','1586528116311-ad8dd3c8310d'][index]}?w=800&h=600&fit=crop`}
                       alt={service.name}
                       className="w-full h-full object-cover"
                     />
