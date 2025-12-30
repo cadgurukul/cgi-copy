@@ -5,6 +5,12 @@ import { ArrowRight, Check } from 'lucide-react';
 
 const ServicesPage = () => {
   const serviceDetails = [
+      {
+      name: 'Core Tech Expertise',
+      description: 'Enterprise solutions enabling scalable operations, system integration, process optimization, and digital transformation',
+      benefits: ['VDI - Virtual desktop infrastructure', 'Virtual Machine', 'Cloud transformation', 'EUC services', 'Service desk and contact center', 'Workplace engineering - Software patching, App development'],
+      sectionId: 'cloud-hybrid-it' 
+    },
      {
       name: 'Enterprise Solutions',
       description: 'Enterprise solutions enabling scalable operations, system integration, process optimization, and digital transformation',
@@ -105,7 +111,7 @@ const ServicesPage = () => {
                 <div className={index % 2 === 1 ? 'md:order-1' : ''}>
                   <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg overflow-hidden">
                     <img
-                      src={`https://images.unsplash.com/photo-${['1551434678-e076c223a692','1573165265437-f5e267bb3db6', '1451187580459-43490279c0fa', '1677442136019-21780ecad995', '1551288049-bebda4e38f71', '1560264280-88b68371db39','1460925895917-afdab827c52f','1667984390538-3dea7a3fe33d','1538688423619-a81d3f23454b'][index]}?w=800&h=600&fit=crop`}
+                      src={`https://images.unsplash.com/photo-${['1521737852567-6949f3f9f2b5','1551434678-e076c223a692','1573165265437-f5e267bb3db6', '1451187580459-43490279c0fa', '1677442136019-21780ecad995', '1551288049-bebda4e38f71', '1560264280-88b68371db39','1460925895917-afdab827c52f','1667984390538-3dea7a3fe33d','1538688423619-a81d3f23454b'][index]}?w=800&h=600&fit=crop`}
                       alt={service.name}
                       className="w-full h-full object-cover"
                     />

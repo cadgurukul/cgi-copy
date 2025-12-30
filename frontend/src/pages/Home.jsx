@@ -37,13 +37,15 @@ const Home = () => {
                     </ol>
                   </li>                
                 </ul>
-                <ul style={{borderLeft:'1px',borderLeftStyle:"solid",marginLeft:"10px"}}>
+                <ul style={{marginLeft:"25px"}}>
                   <li style={{paddingLeft:"10px"}}><b>Europe :</b>
                     <ol style={{marginLeft:"10px"}}>
                       <li>UK</li>
                       <li>France</li>
                       <li>Germany</li>
                       <li>Sweden</li>
+                      <li>Italy</li>
+                      <li>Norway</li>
                     </ol>
                   </li>                
                 </ul>
@@ -58,7 +60,7 @@ const Home = () => {
                     </ol>
                   </li>                
                 </ul>
-                <ul style={{borderLeft:'1px',borderLeftStyle:"solid",marginLeft:"10px"}}>
+                <ul style={{borderLeft:'1px'}}>
                   <li style={{paddingLeft:"10px"}}><b>Americas :</b>
                     <ol style={{marginLeft:"10px"}}>
                       <li>Columbia</li>
