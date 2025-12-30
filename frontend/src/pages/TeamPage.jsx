@@ -11,7 +11,7 @@ const TeamPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-5xl font-bold mb-6">Our Leadership Team</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
-            Meet the experienced leaders driving CGI's vision, innovation, and commitment to delivering exceptional value to our clients worldwide.
+            Meet the experienced leaders driving Aventra Consulting's vision, innovation, and commitment to delivering exceptional value to our clients worldwide.
           </p>
         </div>
       </section>
@@ -21,19 +21,19 @@ const TeamPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-[#E31937] mb-2">94,000+</div>
+              <div className="text-4xl font-bold text-[#E31937] mb-2">100+</div>
               <div className="text-gray-700">Team Members Globally</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#E31937] mb-2">40+</div>
+              <div className="text-4xl font-bold text-[#E31937] mb-2">20+</div>
               <div className="text-gray-700">Countries</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#E31937] mb-2">400+</div>
+              <div className="text-4xl font-bold text-[#E31937] mb-2">40+</div>
               <div className="text-gray-700">Locations</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#E31937] mb-2">48+</div>
+              <div className="text-4xl font-bold text-[#E31937] mb-2">15+</div>
               <div className="text-gray-700">Years of Excellence</div>
             </div>
           </div>
@@ -46,7 +46,7 @@ const TeamPage = () => {
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Executive Leadership</h2>
             <p className="text-lg text-gray-700 max-w-3xl">
-              Our leadership team brings decades of experience in technology, consulting, and strategic management to guide CGI's global operations and client partnerships.
+              Our leadership team brings decades of experience in technology, consulting, and strategic management to guide Aventra Consulting's global operations and client partnerships.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ const TeamPage = () => {
                 Our Member-Owner Culture
               </h2>
               <p className="text-lg text-gray-700 mb-4">
-                At CGI, we're not just employees—we're member-owners. This unique structure ensures that every professional has a stake in our success and a voice in our future.
+                At Aventra Consulting, we're not just employees—we're member-owners. This unique structure ensures that every professional has a stake in our success and a voice in our future.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 Our leadership team embodies this culture, working alongside our members to drive innovation, deliver excellence, and create lasting value for our clients and stakeholders.
@@ -119,13 +119,13 @@ const TeamPage = () => {
                 to="/about"
                 className="inline-block text-[#E31937] font-semibold hover:underline"
               >
-                Learn more about CGI →
+                Learn more about Aventra Consulting →
               </Link>
             </div>
             <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop"
-                alt="CGI Team"
+                alt="Aventra Consulting Team"
                 className="w-full h-full object-cover"
               />
             </div>

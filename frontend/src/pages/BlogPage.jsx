@@ -19,7 +19,7 @@ const BlogPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-5xl font-bold mb-6">Insights & Perspectives</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
-            Expert insights, industry trends, and thought leadership from CGI's technology consultants and business advisors.
+            Expert insights, industry trends, and thought leadership from Aventra Consulting technology consultants and business advisors.
           </p>
         </div>
       </section>

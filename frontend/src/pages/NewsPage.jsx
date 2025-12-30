@@ -19,7 +19,7 @@ const NewsPage = () => {
       title: "Aventra Consulting announces strategic partnership with leading cloud provider",
       type: "Partnership announcement",
       date: "December 15, 2024",
-      excerpt: "New partnership will enable CGI to deliver enhanced cloud migration and optimization services to enterprise clients globally.",
+      excerpt: "New partnership will enable Aventra Consulting to deliver enhanced cloud migration and optimization services to enterprise clients globally.",
       image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop",
       link: "/news/cloud-partnership"
     },
@@ -52,9 +52,9 @@ const NewsPage = () => {
       {/* Hero Section */}
       <section className="bg-[#1A1A1A] text-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-5xl font-bold mb-6">CGI News & Updates</h1>
+          <h1 className="text-5xl font-bold mb-6">Aventra Consulting News & Updates</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
-            Stay up to date with the latest news, announcements, and developments from CGI around the world.
+            Stay up to date with the latest news, announcements, and developments from Aventra Consulting around the world.
           </p>
         </div>
       </section>
@@ -215,7 +215,7 @@ const NewsPage = () => {
             Stay informed
           </h2>
           <p className="text-lg text-gray-700 mb-8">
-            Subscribe to receive the latest CGI news and announcements directly to your inbox.
+            Subscribe to receive the latest Aventra Consulting news and announcements directly to your inbox.
           </p>
           <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
             <input

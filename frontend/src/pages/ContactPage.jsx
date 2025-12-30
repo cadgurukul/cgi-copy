@@ -231,9 +231,9 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">Global headquarters</h3>
                     <p className="text-gray-700">
-                      1350 René-Lévesque Blvd. West<br />
-                      Montreal, Quebec H3G 1T4<br />
-                      Canada
+                      Akasa Coworking<br />
+                      3rd Floor,Tower - B , UNITECH CYBER PARK , Sector - 39 ,Gurugram<br />
+                      India
                     </p>
                   </div>
                 </div>
@@ -244,7 +244,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
-                    <p className="text-gray-700">+1 514 841 3200</p>
+                    <p className="text-gray-700">+91 9871833119</p>
                   </div>
                 </div>
 
@@ -254,20 +254,20 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-                    <p className="text-gray-700">info@cgi.com</p>
+                    <p className="text-gray-700">sales@consultaventra.com</p>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-12">
+              {/* <div className="mt-12">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Global presence</h3>
                 <p className="text-gray-700 mb-4">
-                  With over 400 locations worldwide, we're close to our clients no matter where they operate.
+                  With over 20 locations worldwide, we're close to our clients no matter where they operate.
                 </p>
                 <a href="/locations" className="text-[#E31937] font-semibold hover:underline">
                   Find a location near you →
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

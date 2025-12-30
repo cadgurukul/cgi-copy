@@ -14,29 +14,29 @@ const NewsDetailPage = () => {
 
   // Full article content (mock)
   const articleContent = {
-    introduction: newsItem.excerpt || "CGI Inc., a global IT and business consulting services leader, today announced significant developments that underscore the company's commitment to innovation and client success.",
+    introduction: newsItem.excerpt || "Aventra Consulting Inc., a global IT and business consulting services leader, today announced significant developments that underscore the company's commitment to innovation and client success.",
     
     mainContent: [
-      "The announcement comes as part of CGI's ongoing strategy to enhance its service delivery capabilities and strengthen its position as a trusted technology partner for organizations worldwide. This development reflects the company's continued investment in cutting-edge technology and expertise.",
+      "The announcement comes as part of Aventra Consulting's ongoing strategy to enhance its service delivery capabilities and strengthen its position as a trusted technology partner for organizations worldwide. This development reflects the company's continued investment in cutting-edge technology and expertise.",
       
-      "\"At CGI, we are committed to delivering exceptional value to our clients through innovation, expertise, and a deep understanding of their business challenges,\" said George D. Schindler, President and Chief Executive Officer of CGI. \"This announcement represents another significant milestone in our journey to help clients navigate the complexities of digital transformation.\"",
+      "\"At Aventra Consulting, we are committed to delivering exceptional value to our clients through innovation, expertise, and a deep understanding of their business challenges,\" said George D. Schindler, President and Chief Executive Officer of Aventra Consulting. \"This announcement represents another significant milestone in our journey to help clients navigate the complexities of digital transformation.\"",
       
-      "The initiative builds upon CGI's proven track record of successfully implementing large-scale technology solutions across multiple industries. With over 94,000 professionals operating in more than 400 locations worldwide, CGI brings unparalleled scale and expertise to every client engagement.",
+      "The initiative builds upon Aventra Consulting's proven track record of successfully implementing large-scale technology solutions across multiple industries. With over 94,000 professionals operating in more than 400 locations worldwide, Aventra Consulting brings unparalleled scale and expertise to every client engagement.",
       
-      "Industry analysts have responded positively to the announcement, noting CGI's consistent ability to anticipate market trends and position itself strategically for future growth. The company's member-owner culture and proximity model continue to differentiate it in an increasingly competitive marketplace.",
+      "Industry analysts have responded positively to the announcement, noting Aventra Consulting's consistent ability to anticipate market trends and position itself strategically for future growth. The company's member-owner culture and proximity model continue to differentiate it in an increasingly competitive marketplace.",
       
-      "CGI's clients span virtually every industry sector, including government, financial services, healthcare, manufacturing, retail, and energy and utilities. The company's comprehensive service portfolio encompasses business consulting, systems integration, managed IT services, and intellectual property-based solutions."
+      "Aventra Consulting's clients span virtually every industry sector, including government, financial services, healthcare, manufacturing, retail, and energy and utilities. The company's comprehensive service portfolio encompasses business consulting, systems integration, managed IT services, and intellectual property-based solutions."
     ],
     
     quote: {
-      text: "This development reinforces CGI's position as a leader in the global IT services market and demonstrates our unwavering commitment to innovation and client success.",
+      text: "This development reinforces Aventra Consulting's position as a leader in the global IT services market and demonstrates our unwavering commitment to innovation and client success.",
       author: "François Boulanger",
-      title: "Executive Vice-President and CFO, CGI"
+      title: "Executive Vice-President and CFO, Aventra Consulting"
     },
     
-    aboutCGI: "Founded in 1976, CGI is among the largest independent IT and business consulting services firms in the world. Operating in hundreds of locations across the globe, CGI delivers an end-to-end portfolio of capabilities, from strategic IT and business consulting to systems integration, managed IT services, and intellectual property solutions. CGI works with clients through a local relationship model complemented by a global delivery network that helps clients digitally transform their organizations and accelerate results.",
+    aboutCGI: "Founded in 2011, Aventra Consulting is among the largest independent IT and business consulting services firms in the world. Operating in hundreds of locations across the globe, Aventra Consulting delivers an end-to-end portfolio of capabilities, from strategic IT and business consulting to systems integration, managed IT services, and intellectual property solutions. Aventra Consulting works with clients through a local relationship model complemented by a global delivery network that helps clients digitally transform their organizations and accelerate results.",
     
-    forwardLooking: "This news release contains forward-looking statements about future events and circumstances. Actual results may differ materially from those expressed or implied in such statements. Factors that could cause differences include economic conditions, market dynamics, technological changes, and other risks detailed in CGI's filings with securities regulators."
+    forwardLooking: "This news release contains forward-looking statements about future events and circumstances. Actual results may differ materially from those expressed or implied in such statements. Factors that could cause differences include economic conditions, market dynamics, technological changes, and other risks detailed in Aventra Consulting's filings with securities regulators."
   };
 
   return (
@@ -115,9 +115,9 @@ const NewsDetailPage = () => {
               </div>
             </div>
 
-            {/* About CGI */}
+            {/* About Aventra Consulting */}
             <div className="mt-12 p-6 bg-gray-50 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">About CGI</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">About Aventra Consulting</h3>
               <p className="text-gray-700 leading-relaxed">
                 {articleContent.aboutCGI}
               </p>
@@ -224,7 +224,7 @@ const NewsDetailPage = () => {
       {/* CTA Section */}
       <section className="py-16 bg-[#1A1A1A] text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-4">Get the latest CGI news</h2>
+          <h2 className="text-3xl font-bold mb-4">Get the latest Aventra Consulting news</h2>
           <p className="text-xl text-gray-300 mb-8">
             Subscribe to receive news and updates directly to your inbox.
           </p>
