@@ -114,7 +114,7 @@ const AboutPage = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { name: 'Deepti Grover', title: 'Chief Operating Officer', image: './team/COO.jpg' },
+              { name: 'Deepinti Grover', title: 'Chief Operating Officer', image: './team/COO.jpg' },
               { name: 'Vikas Grover', title: 'President and CEO', image: './team/CEO.jpg' },
               { name: 'Rovil Mahajan', title: 'Executive Vice-President and CFO', image: './team/CFO.png' }
 

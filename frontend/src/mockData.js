@@ -239,7 +239,7 @@ export const teamMembers = [
   },
   {
     id: 2,
-    name: "Deepti Grover",
+    name: "Deepinti Grover",
     designation: "Executive Vice-President & COO",
     bio: "Driving operational transformation, service delivery excellence, and ensuring client satisfaction across global operations.",
     image: "./team/COO.jpg"
