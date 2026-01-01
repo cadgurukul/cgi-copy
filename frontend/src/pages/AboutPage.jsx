@@ -116,7 +116,7 @@ const AboutPage = () => {
             {[
               { name: 'Deepti Grover', title: 'Chief Operating Officer', image: './team/COO.jpg' },
               { name: 'Vikas Grover', title: 'President and CEO', image: './team/CEO.jpg' },
-              { name: 'Ramesh Mahajan', title: 'Executive Vice-President and CFO', image: './team/CFO.png' }
+              { name: 'Rovil Mahajan', title: 'Executive Vice-President and CFO', image: './team/CFO.png' }
 
             ].map((leader) => (
               <div key={leader.name} className="text-center">

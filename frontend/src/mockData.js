@@ -246,7 +246,7 @@ export const teamMembers = [
   },
   {
     id: 3,
-    name: "Ramesh Mahajan",
+    name: "Rovil Mahajan",
     designation: "Chief Operating Officer",
     bio: "Overseeing financial strategy, investor relations, and operational excellence across all CGI business units worldwide.",
     image: "./team/CFO.png"
