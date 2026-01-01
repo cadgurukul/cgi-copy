@@ -101,10 +101,10 @@ const CareersPage = () => {
             Submit your resume and we'll keep you in mind for future opportunities that match your skills and interests.
           </p>
           <Link
-            to="/careers/submit-resume"
+            to="/contact"
             className="inline-block bg-[#E31937] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#C01530] transition-colors"
           >
-            Submit your resume
+            Submit Details Here
           </Link>
         </div>
       </section>
