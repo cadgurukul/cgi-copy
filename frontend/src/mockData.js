@@ -105,24 +105,24 @@ export const caseStudies = [
 export const experts = [
   {
     id: 1,
-    name: "Ethel Colsen",
-    image: "https://randomuser.me/api/portraits/women/65.jpg",
+    name: "",
+    image: "https://plus.unsplash.com/premium_photo-1661963882294-f1b2c7a8a710?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "How digital manufacturing clouds unlock collaboration between IT and business",
-    link: "/blog/manufacturing/digital-clouds"
+    link: "/blog"
   },
   {
     id: 2,
-    name: "Helena Jochberger",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    name: "",
+    image: "https://plus.unsplash.com/premium_photo-1680700148912-fa9b748a3885?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "AI impact on management consulting",
-    link: "/blog/business-consulting/ai-impact"
+    link: "/blog"
   },
   {
     id: 3,
-    name: "Lara Ozanne",
-    image: "https://randomuser.me/api/portraits/women/32.jpg",
+    name: "",
+    image: "https://plus.unsplash.com/premium_photo-1719610045957-dfa99e1b715c?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Overcoming OCIO challenges to deliver real business value",
-    link: "/blog/business-consulting/ocio-challenges"
+    link: "/blog"
   }
 ];
 
@@ -251,25 +251,5 @@ export const teamMembers = [
     bio: "Overseeing financial strategy, investor relations, and operational excellence across all CGI business units worldwide.",
     image: "./team/CFO.png"
   },
-  {
-    id: 4,
-    name: "Sarah Mitchell",
-    designation: "Chief Technology Officer",
-    bio: "Leading technology innovation, AI strategy, and digital transformation initiatives for enterprise clients globally.",
-    image: "https://randomuser.me/api/portraits/women/65.jpg"
-  },
-  {
-    id: 5,
-    name: "Michael Chen",
-    designation: "Chief Information Officer",
-    bio: "Managing enterprise IT infrastructure, cybersecurity, and technology operations supporting CGI's global service delivery.",
-    image: "https://randomuser.me/api/portraits/men/52.jpg"
-  },
-  {
-    id: 6,
-    name: "Jennifer Rodriguez",
-    designation: "Chief Security Officer",
-    bio: "Protecting organizational assets, ensuring compliance, and leading cybersecurity strategy for clients and operations.",
-    image: "https://randomuser.me/api/portraits/women/44.jpg"
-  },
+  
 ];
