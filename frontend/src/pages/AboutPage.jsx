@@ -7,7 +7,7 @@ const AboutPage = () => {
     { icon: Users, value: '10+', label: 'Professionals worldwide' },
     { icon: Globe, value: '5+', label: 'Locations globally' },
     { icon: Award, value: '15+', label: 'Years of experience' },
-    { icon: TrendingUp, value: '40%', label: 'Annual Growth' }
+    { icon: TrendingUp, value: '5', label: 'MOU\'s Signed' }
   ];
 
   const values = [
