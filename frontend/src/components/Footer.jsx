@@ -7,23 +7,23 @@ const Footer = () => {
     {
       title: 'Services',
       links: [
-        { name: 'Business consulting', url: '/services/business-consulting' },
-        { name: 'Business process services', url: '/services/bps' },
-        { name: 'Managed IT services', url: '/services/managed-it' },
-        { name: 'Artificial intelligence', url: '/services/ai' },
-        { name: 'Data analytics', url: '/services/data-analytics' },
-        { name: 'Cloud & hybrid IT', url: '/services/cloud' }
+        { name: 'Business consulting', url: '/services#business-consulting' },
+        { name: 'Business process services', url: '/services#business-process-services' },
+        { name: 'Managed IT services', url: '/services#managed-it' },
+        { name: 'Artificial intelligence', url: '/services#artificial-intelligence' },
+        { name: 'Data analytics', url: '/services#data-analytics' },
+        { name: 'Cloud & hybrid IT', url: '/services#cloud-hybrid-it' }
       ]
     },
     {
       title: 'Industries',
       links: [
-        { name: 'Banking', url: '/industries/banking' },
-        { name: 'Government', url: '/industries/government' },
-        { name: 'Health', url: '/industries/health' },
-        { name: 'Manufacturing', url: '/industries/manufacturing' },
-        { name: 'Retail', url: '/industries/retail' },
-        { name: 'Energy & utilities', url: '/industries/energy' }
+        { name: 'Banking', url: '/industries#banking' },
+        { name: 'Government', url: '/industries#government' },
+        { name: 'Health', url: '/industries#health' },
+        { name: 'Manufacturing', url: '/industries#manufacturing' },
+        { name: 'Retail', url: '/industries#retail' },
+        { name: 'Energy & utilities', url: '/industries#energy-utilities' }
       ]
     },
     {

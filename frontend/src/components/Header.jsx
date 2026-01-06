@@ -31,12 +31,12 @@ const Header = () => {
     {
       name: 'Industries',
       items: [
-        { name: 'Banking', link: '/industries' },
-        { name: 'Government', link: '/industries' },
-        { name: 'Health', link: '/industries' },
-        { name: 'Manufacturing', link: '/industries' },
-        { name: 'Retail', link: '/industries' },
-        { name: 'Energy & utilities', link: '/industries' },
+        { name: 'Banking', link: '/industries#banking' },
+        { name: 'Government', link: '/industries#government' },
+        { name: 'Health', link: '/industries#health' },
+        { name: 'Manufacturing', link: '/industries#manufacturing' },
+        { name: 'Retail', link: '/industries#retail' },
+        { name: 'Energy & utilities', link: '/industries#energy-utilities' },
         { name: 'View all industries', link: '/industries', featured: true }
       ]
     },

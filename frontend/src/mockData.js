@@ -36,12 +36,12 @@ export const heroSlides = [
 ];
 
 export const industries = [
-  { name: "Banking", link: "/industries/banking" },
-  { name: "Government", link: "/industries/government" },
-  { name: "Health", link: "/industries/health" },
-  { name: "Manufacturing", link: "/industries/manufacturing" },
-  { name: "Retail", link: "/industries/retail" },
-  { name: "Energy & utilities", link: "/industries/energy" }
+  { name: "Banking", link: "/industries#banking" },
+  { name: "Government", link: "/industries#government" },
+  { name: "Health", link: "/industries#health" },
+  { name: "Manufacturing", link: "/industries#manufacturing" },
+  { name: "Retail", link: "/industries#retail" },
+  { name: "Energy & utilities", link: "/industries#energy-utilities" }
 ];
 
 export const insights = [
@@ -63,12 +63,12 @@ export const solutions = [
 
 
 export const services = [
-  { name: "Business consulting", link: "/services",title:"Strategic business consulting to drive sustainable growth and organizational excellence", image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { name: "Business process services", link: "/services",title:"End-to-end business process services enhancing efficiency, scalability, and operational performance", image: "https://images.unsplash.com/photo-1759752393975-7ca7b302fcc6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
-  { name: "Managed IT services", link: "/services",title:"Managed IT services to ensure optimal performance and security", image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { name: "Artificial intelligence", link: "/services", title:"AI solutions to automate processes and enhance decision-making", image: "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { name: "Data analytics", link: "/services", title:"Data analytics to extract insights and drive informed decisions", image: "" },
-  { name: "Cloud & hybrid IT", link: "/services", title:"Cloud and hybrid IT solutions for scalable infrastructure", image: "" }
+  { name: "Business consulting", link: "/services#business-consulting",title:"Strategic business consulting to drive sustainable growth and organizational excellence", image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { name: "Business process services", link: "/services#business-process-services",title:"End-to-end business process services enhancing efficiency, scalability, and operational performance", image: "https://images.unsplash.com/photo-1759752393975-7ca7b302fcc6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
+  { name: "Managed IT services", link: "/services#managed-it",title:"Managed IT services to ensure optimal performance and security", image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { name: "Artificial intelligence", link: "/services#artificial-intelligence", title:"AI solutions to automate processes and enhance decision-making", image: "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { name: "Data analytics", link: "/services#data-analytics", title:"Data analytics to extract insights and drive informed decisions", image: "" },
+  { name: "Cloud & hybrid IT", link: "/services#cloud-hybrid-it", title:"Cloud and hybrid IT solutions for scalable infrastructure", image: "" }
 ];
 
 export const caseStudies = [
