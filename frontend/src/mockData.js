@@ -1,22 +1,22 @@
 // Mock data for CGI clone
 
 export const heroSlides = [
+  // {
+  //   id: 1,
+  //   title: "Reimagining insurance through modernization",
+  //   description: "With our help, MAPFRE USA migrated to a modern core platform, driving faster claims, better underwriting and data-powered growth.",
+  //   cta: "Read the client success story",
+  //   link: "/case-studies/mapfre",
+  //   image: "https://plus.unsplash.com/premium_photo-1683134291977-713a1f1d0980?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dp"
+  // },
   {
     id: 1,
-    title: "Reimagining insurance through modernization",
-    description: "With our help, MAPFRE USA migrated to a modern core platform, driving faster claims, better underwriting and data-powered growth.",
-    cta: "Read the client success story",
-    link: "/case-studies/mapfre",
-    image: "https://plus.unsplash.com/premium_photo-1683134291977-713a1f1d0980?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dp"
+    title: "From AI vision to value",
+    description: "Explore bold human-centered AI thinking, practical expert insights and success stories that help clients accelerate innovation confidently.",
+    cta: "Explore the ideas driving smarter, human-led innovation",
+    link: "/insights/ai",
+    image: "https://plus.unsplash.com/premium_photo-1661963957167-8296092da19c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
-  // {
-  //   id: 2,
-  //   title: "From AI vision to value",
-  //   description: "Explore bold human-centered AI thinking, practical expert insights and success stories that help clients accelerate innovation confidently.",
-  //   cta: "Explore the ideas driving smarter, human-led innovation",
-  //   link: "/insights/ai",
-  //   image: "https://plus.unsplash.com/premium_photo-1661963957167-8296092da19c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  // },
   // {
   //   id: 3,
   //   title: "Redefining global capability centers (GCCs) into AI-powered innovation hubs",
