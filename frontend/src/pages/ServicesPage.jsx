@@ -87,7 +87,7 @@ const ServicesPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid gap-12">
             {serviceDetails.map((service, index) => (
-              <section id={service.sectionId} key={service.name}>
+              <section id={service.sectionId} key={service.sectionId}>
               <div key={service.name} className="grid md:grid-cols-2 gap-8 items-center">
                 <div className={index % 2 === 1 ? 'md:order-2' : ''}>
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">{service.name}</h2>
