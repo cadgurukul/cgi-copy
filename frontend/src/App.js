@@ -79,7 +79,7 @@ function App() {
         <Footer />
       </BrowserRouter>
       <FloatingWhatsApp 
-        phoneNumber="919871833119" // Include country code
+        phoneNumber="918713001002" // Include country code
         accountName="Support"
         chatMessage="Hello! How can we help?"
         avatar="https://gravatar.com/avatar/6bed0a553547181a561564cc2daf8583?s=400&d=robohash&r=x"
