@@ -4,8 +4,8 @@ import { Users, Globe, Award, TrendingUp } from 'lucide-react';
 
 const AboutPage = () => {
   const stats = [
-    { icon: Users, value: '100+', label: 'Professionals worldwide' },
-    { icon: Globe, value: '20+', label: 'Locations globally' },
+    { icon: Users, value: '10+', label: 'Professionals worldwide' },
+    { icon: Globe, value: '5+', label: 'Locations globally' },
     { icon: Award, value: '15+', label: 'Years of experience' },
     { icon: TrendingUp, value: '40%', label: 'Annual Growth' }
   ];
