@@ -19,12 +19,12 @@ const Header = () => {
     {
       name: 'Services',
       items: [
-        { name: 'Business consulting', link: '/services' },
-        { name: 'Business process services', link: '/services' },
-        { name: 'Managed IT services', link: '/services' },
-        { name: 'Artificial intelligence', link: '/services' },
-        { name: 'Data analytics', link: '/services' },
-        { name: 'Cloud & hybrid IT', link: '/services' },
+        { name: 'Core Tech Expertise', link: '/services#core-tech-expertise' },
+        { name: 'Business process services', link: '/services#business-process-services' },
+        { name: 'Managed IT services', link: '/services#managed-it-services' },
+        { name: 'Artificial intelligence', link: '/services#artificial-intelligence' },
+        { name: 'Data analytics', link: '/services#data-analytics' },
+        { name: 'Cloud & hybrid IT', link: '/services#cloud-hybrid-it' },
         { name: 'View all services', link: '/services', featured: true }
       ]
     },

@@ -9,19 +9,19 @@ const ServicesPage = () => {
       name: 'Core Tech Expertise',
       description: 'Enterprise solutions enabling scalable operations, system integration, process optimization, and digital transformation',
       benefits: ['VDI - Virtual desktop infrastructure', 'Virtual Machine', 'Cloud transformation', 'EUC services', 'Service desk and contact center', 'Workplace engineering - Software patching, App development'],
-      sectionId: 'cloud-hybrid-it' 
+      sectionId: 'core-tech-expertise'
     },
      {
       name: 'Enterprise Solutions',
       description: 'Enterprise solutions enabling scalable operations, system integration, process optimization, and digital transformation',
       benefits: ['Digital Transformation', 'SaaS / PaaS Solutions ', ' Enterprise Mobility Solution', ' CRM Development','Salesforce Development','IT Consulting'],
-      sectionId: 'cloud-hybrid-it' 
+      sectionId: 'enterprise-solutions' 
     },
      {
       name: 'IT Consulting',
       description: 'Expert IT consulting aligning technology strategy with business goals',
       benefits: ['Real Estate Services', ' GCC expansion', ' Technology Solution', ' Legal Assistance','Co-Location Deployment'],
-      sectionId: 'cloud-hybrid-it' 
+      sectionId: 'it-consulting'
     },
     {
       name: 'Business consulting',
@@ -65,7 +65,7 @@ const ServicesPage = () => {
       name: 'Staff Augmentation',
       description: 'Flexible staff augmentation services providing skilled talent to accelerate projects and business growth',
       benefits: ['FTE supplies', 'Work to contract', 'TNM Model', 'Other Offshore Models', 'Employee Charge back'],
-      sectionId: 'cloud-hybrid-it' 
+      sectionId: 'staff-augmentation' 
     },
     
   ];
