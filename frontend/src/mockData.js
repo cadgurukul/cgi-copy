@@ -9,30 +9,30 @@ export const heroSlides = [
     link: "/case-studies/mapfre",
     image: "https://plus.unsplash.com/premium_photo-1683134291977-713a1f1d0980?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dp"
   },
-  {
-    id: 2,
-    title: "From AI vision to value",
-    description: "Explore bold human-centered AI thinking, practical expert insights and success stories that help clients accelerate innovation confidently.",
-    cta: "Explore the ideas driving smarter, human-led innovation",
-    link: "/insights/ai",
-    image: "https://plus.unsplash.com/premium_photo-1661963957167-8296092da19c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  },
-  {
-    id: 3,
-    title: "Redefining global capability centers (GCCs) into AI-powered innovation hubs",
-    description: "By transforming GCCs into strategic growth hubs, we help clients unlock agility, resiliency and innovation in an AI-first world.",
-    cta: "Discover your organization's next growth engine",
-    link: "/services/gcc",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop"
-  },
-  {
-    id: 4,
-    title: "Build your career with us",
-    description: "We're recruiting top talent for roles that drive innovation and build our shared future.",
-    cta: "Explore top roles that power impact",
-    link: "/careers",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop"
-  }
+  // {
+  //   id: 2,
+  //   title: "From AI vision to value",
+  //   description: "Explore bold human-centered AI thinking, practical expert insights and success stories that help clients accelerate innovation confidently.",
+  //   cta: "Explore the ideas driving smarter, human-led innovation",
+  //   link: "/insights/ai",
+  //   image: "https://plus.unsplash.com/premium_photo-1661963957167-8296092da19c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  // },
+  // {
+  //   id: 3,
+  //   title: "Redefining global capability centers (GCCs) into AI-powered innovation hubs",
+  //   description: "By transforming GCCs into strategic growth hubs, we help clients unlock agility, resiliency and innovation in an AI-first world.",
+  //   cta: "Discover your organization's next growth engine",
+  //   link: "/services/gcc",
+  //   image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop"
+  // },
+  // {
+  //   id: 4,
+  //   title: "Build your career with us",
+  //   description: "We're recruiting top talent for roles that drive innovation and build our shared future.",
+  //   cta: "Explore top roles that power impact",
+  //   link: "/careers",
+  //   image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop"
+  // }
 ];
 
 export const industries = [
