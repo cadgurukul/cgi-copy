@@ -92,7 +92,7 @@ const HeroCarousel = ({ slides }) => {
         </div>
 
         {/* Slide Indicators */}
-        <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex space-x-2 z-20">
+        {/* <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex space-x-2 z-20">
           {slides.map((_, index) => (
             <button
               key={index}
@@ -105,7 +105,7 @@ const HeroCarousel = ({ slides }) => {
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
