@@ -88,7 +88,7 @@ const IndustriesPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {industriesData.map((industry) => (
-              <Section id={industry.sectionId}
+              <section id={industry.sectionId}
                 key={industry.sectionId}
                 className="group bg-white border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow"
               >
@@ -109,7 +109,7 @@ const IndustriesPage = () => {
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </span> */}
                 </div>
-              </Section>
+              </section>
             ))}
           </div>
         </div>
