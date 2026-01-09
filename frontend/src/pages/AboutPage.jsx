@@ -36,7 +36,7 @@ const AboutPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-5xl font-bold mb-6">About Aventra Consulting</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
-            Founded in 2025, Aventra Consulting is among the largest IT and business consulting services firms in the world. We are insights-driven and outcomes-based to help accelerate returns on your investments.
+            Founded in 2025, Aventra Consulting is among the fast-growing independent IT and business consulting services firm. We are insights-driven and outcomes-based to help accelerate returns on your investments.
           </p>
         </div>
       </section>

@@ -16,7 +16,7 @@ const NewsDetailPage = () => {
   const articleContent = {
     introduction: newsItem.excerpt || "Aventra Consulting Inc., a global IT and business consulting services leader, today announced significant developments that underscore the company's commitment to innovation and client success.",
     
-    mainContent: [
+    mainContent: newsItem.mainContent || [
       "The announcement comes as part of Aventra Consulting's ongoing strategy to enhance its service delivery capabilities and strengthen its position as a trusted technology partner for organizations worldwide. This development reflects the company's continued investment in cutting-edge technology and expertise.",
       
       "\"At Aventra Consulting, we are committed to delivering exceptional value to our clients through innovation, expertise, and a deep understanding of their business challenges,\" said Vikas Grover, President and Chief Executive Officer of Aventra Consulting. \"This announcement represents another significant milestone in our journey to help clients navigate the complexities of digital transformation.\"",
@@ -28,13 +28,13 @@ const NewsDetailPage = () => {
       "Aventra Consulting's clients span virtually every industry sector, including government, financial services, healthcare, manufacturing, retail, and energy and utilities. The company's comprehensive service portfolio encompasses business consulting, systems integration, managed IT services, and intellectual property-based solutions."
     ],
     
-    quote: {
+    quote: newsItem.quote || {
       text: "This development reinforces Aventra Consulting's position as a leader in the global IT services market and demonstrates our unwavering commitment to innovation and client success.",
       author: "Rovil Mahajan",
       title: "Executive Vice-President and CFO, Aventra Consulting"
     },
     
-    aboutCGI: "Founded in 2011, Aventra Consulting is among the largest independent IT and business consulting services firms in the world. Operating in hundreds of locations across the globe, Aventra Consulting delivers an end-to-end portfolio of capabilities, from strategic IT and business consulting to systems integration, managed IT services, and intellectual property solutions. Aventra Consulting works with clients through a local relationship model complemented by a global delivery network that helps clients digitally transform their organizations and accelerate results.",
+    aboutCGI: "Founded in 2025, Aventra Consulting is among the fast-growing independent IT and business consulting services firm. We are insights-driven and outcomes-based to help accelerate returns on your investments.",
     
     forwardLooking: "This news release contains forward-looking statements about future events and circumstances. Actual results may differ materially from those expressed or implied in such statements. Factors that could cause differences include economic conditions, market dynamics, technological changes, and other risks detailed in Aventra Consulting's filings with securities regulators."
   };
@@ -77,7 +77,7 @@ const NewsDetailPage = () => {
               <span className="font-medium">{newsItem.date}</span>
             </div>
             <div>
-              <span className="text-sm text-gray-600">Gurugram , India</span>
+              <span className="text-sm text-gray-600">{newsItem.location}</span>
             </div>
           </div>
 
@@ -176,7 +176,7 @@ const NewsDetailPage = () => {
                 </a>
               </p>
               <p>
-                <strong>Phone:</strong> +91 9070030003
+                <strong>Phone:</strong> +91 8713001002
               </p>
             </div>
           </div>

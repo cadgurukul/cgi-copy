@@ -127,32 +127,68 @@ export const experts = [
 ];
 
 export const news = [
-  {
-    id: 1,
-    title: "Aventra Consulting files 2025 Annual Disclosure Documents",
-    type: "Press release",
-    date: "January 15, 2025",
-    excerpt: "Aventra Consulting Inc. announces the filing of its 2025 annual disclosure documents with regulatory authorities.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
-    link: "/news/annual-disclosure-2025"
-  },
+  // {
+  //   id: 1,
+  //   title: "Aventra Consulting files 2025 Annual Disclosure Documents",
+  //   type: "Press release",
+  //   date: "January 15, 2025",
+  //   excerpt: "Aventra Consulting Inc. announces the filing of its 2025 annual disclosure documents with regulatory authorities.",
+  //   image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
+  //   link: "/news/annual-disclosure-2025"
+  // },
+   {
+      id: 1,
+      title: "What is the GAIN AI Act and Why Does Nvidia Oppose it?",
+      type: "AI Strategy",
+      date: "December 15, 2025",
+      excerpt: "The AI chip industry is bracing for another wave of export restrictions as US lawmakers push legislation requiring domestic companies to prioritise American customers over international buyers. ",
+      mainContent: [
+        "Nvidia, a leading AI chipmaker, has voiced strong opposition to the GAIN AI Act, arguing that it could stifle innovation and harm the global competitiveness of US technology firms. The company contends that such restrictions could lead to supply chain disruptions and limit access to critical markets for American-made AI hardware.",
+        "Critics of the GAIN AI Act argue that it could hinder the growth of the AI industry by creating barriers to international collaboration and market access. They contend that innovation thrives in an open global ecosystem where ideas and technologies can flow freely across borders.",
+        "Supporters of the legislation, however, emphasize the importance of safeguarding national security interests in an era where AI technologies have significant implications for military and intelligence capabilities. They argue that prioritizing domestic needs is essential to maintaining technological superiority in a rapidly evolving landscape.",
+        "As the debate over the GAIN AI Act continues, industry stakeholders are closely monitoring its potential impact on the AI chip market and broader technology ecosystem. The legislation highlights the complex interplay between innovation, national security, and global commerce in the age of artificial intelligence."
+      ],
+      quote: {
+        text: "The GAIN AI Act represents a significant shift in how we approach the development and distribution of AI technologies. While national security is paramount, we must also consider the broader implications for innovation and global competitiveness.", 
+        author: "Nvidia",
+        title: "Leading AI Chipmaker"
+      },
+      image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop",
+      link: "/news/ai-act-nvidia-oppose",
+      location: "Santa Clara, CA"
+    },
   {
     id: 2,
-    title: "Aventra Consulting to deliver secure mobile communications solution for Aitel",
-    type: "Press release",
-    date: "January 10, 2025",
-    excerpt: "Airtel has selected Aventra Consulting to provide next-generation secure mobile communications infrastructure across member nations.",
+    title: "MIT: Why 95% of Enterprise AI Investments Fail to Deliver",
+    type: "AI Strategy",
+    date: "November 10, 2025",
+    excerpt: "New research from MIT reveals that 95% of enterprise AI investments fail to deliver measurable business value, highlighting the challenges organizations face in implementing AI at scale.",
+    mainContent: ["Enterprise investment in Gen AI has reached US$30bn-US$40bn globally, yet 95% of organisations report zero return on the initiatives. New research from MIT called ‘The Gen AI Divide State of AI in Business 2025’, examining 300 public implementations, reveals what researchers call the “Gen AI Divide”: a split between the small minority achieving substantial value and the majority trapped in failed pilot programmes.The study finds that only 5% of integrated AI pilots extract measurable profit and loss impact – and the divide stems from implementation approach rather than model quality or regulation. Meanwhile, generic tools like ChatGPT and Microsoft’s Copilot show widespread adoption, with over 80% of organisations exploring them and nearly 40% deploying them. However, these primarily enhance individual productivity rather than organisational performance.Enterprise-grade systems tell a different story. While 60% of organisations evaluate custom or vendor-supplied tools, only 20% reach pilot stage and merely 5% achieve production deployment. Most fail due to brittle workflows and misalignment with daily operations."],
+    quote: {
+        text: "MIT finds that strategic partnerships with external vendors reach deployment 67% of the time compared to 33% for internal builds.", 
+        author: "MIT",
+        title: " Private Research University"
+      },
     image: "https://images.unsplash.com/photo-1563906267088-b029e7101114?w=600&h=400&fit=crop",
-    link: "/news/nato-communications"
+    link: "/news/mit-ai-investments-fail",
+    location: "Cambridge, MA"
   },
   {
     id: 3,
-    title: "Aventra Consulting expands its Winnipeg presence and Canadian footprint with the acquisition of Online Business Systems",
-    type: "Press release",
-    date: "December 20, 2024",
-    excerpt: "Strategic acquisition strengthens CGI's capabilities in cloud solutions and enhances service delivery across Canada.",
+    title: "The UAE’s First Chief AI Officer Training for Executives",
+    type: "AI Applications",
+    date: "September 20, 2025",
+    excerpt: "The UAE unveils the region’s first executive Chief AI Officer (CAIO) training through a partnership between Abu Dhabi School of Management and Polynome",
+    mainContent: ["Enterprise investment in Gen AI has reached US$30bn-US$40bn globally, yet 95% of organisations report zero return on the initiatives. New research from MIT called ‘The Gen AI Divide State of AI in Business 2025’, examining 300 public implementations, reveals what researchers call the “Gen AI Divide”: a split between the small minority achieving substantial value and the majority trapped in failed pilot programmes.The study finds that only 5% of integrated AI pilots extract measurable profit and loss impact – and the divide stems from implementation approach rather than model quality or regulation. Meanwhile, generic tools like ChatGPT and Microsoft’s Copilot show widespread adoption, with over 80% of organisations exploring them and nearly 40% deploying them. However, these primarily enhance individual productivity rather than organisational performance.Enterprise-grade systems tell a different story. While 60% of organisations evaluate custom or vendor-supplied tools, only 20% reach pilot stage and merely 5% achieve production deployment. Most fail due to brittle workflows and misalignment with daily operations."],
+    quote: {
+        text: "Companies around the world are appointing Chief AI Officers (CAIOs) to navigate the complexities of AI deployment, regulatory compliance and competitive advantage. This executive role has emerged as an infrastructure in the AI economy, with demand outstripping the supply of qualified candidates who can bridge technical expertise with strategic business acumen.In response, the UAE has launched the region’s first executive training programme for CAIOs, responding to surging demand for senior AI leadership as Middle Eastern organisations ramp up AI investments.", 
+        author: "Dubai AI Week",
+        title: "Abu Dhabi School of Management and Polynome Group"
+      },
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
-    link: "/news/winnipeg-expansion"
+    link: "/news/uae-chief-ai-officer-training",
+    location: "Dubai, UAE"
+  
   }
 ];
 

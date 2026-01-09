@@ -6,7 +6,7 @@ import { Calendar, ArrowRight, FileText } from 'lucide-react';
 const NewsPage = () => {
   const [selectedYear, setSelectedYear] = useState('2025');
 
-  const years = ['2025', '2024', '2023'];
+  const years = ['2025'];
 
   // Filter news by year
   const filteredNews = news.filter(item => item.date.includes(selectedYear));
@@ -16,10 +16,10 @@ const NewsPage = () => {
     ...news,
     {
       id: 4,
-      title: "Aventra Consulting announces strategic partnership with leading cloud provider",
-      type: "Partnership announcement",
-      date: "December 15, 2024",
-      excerpt: "New partnership will enable Aventra Consulting to deliver enhanced cloud migration and optimization services to enterprise clients globally.",
+      title: "What is the GAIN AI Act and Why Does Nvidia Oppose it?",
+      type: "AI Strategy",
+      date: "December 15, 2026",
+      excerpt: "The AI chip industry is bracing for another wave of export restrictions as US lawmakers push legislation requiring domestic companies to prioritise American customers over international buyers. The Guaranteeing Access and Innovation for National Artificial Intelligence Act of 2025 (GAIN AI Act), introduced as part of the National Defense Authorisation Act, would require American developers of AI processors to prioritise domestic orders for high-performance processors before supplying them to overseas buyers.This development is unfolding as Washington grapples with balancing national security concerns against the commercial interests of US tech companies. The Trump administration recently rescinded the Biden-era AI Diffusion Rule, which had imposed similar restrictions on computing power exports through a complex country-tier system. That earlier framework aimed to “regulate the global diffusion” of advanced AI chips and models while keeping powerful AI systems within the US and close allies.      ",
       image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop",
       link: "/news/cloud-partnership"
     },
@@ -60,7 +60,7 @@ const NewsPage = () => {
       </section>
 
       {/* Year Filter */}
-      <section className="bg-white border-b border-gray-200 sticky top-16 z-40">
+      {/* <section className="bg-white border-b border-gray-200 sticky top-16 z-40">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center gap-4">
             <span className="text-gray-700 font-medium">Filter by year:</span>
@@ -81,7 +81,7 @@ const NewsPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Latest News - Featured */}
       {newsToDisplay.length > 0 && (
@@ -188,12 +188,12 @@ const NewsPage = () => {
             <div className="space-y-3 text-gray-700">
               <p>
                 <strong>Email:</strong>{' '}
-                <a href="mailto:media@cgi.com" className="text-[#E31937] hover:underline">
-                  media@cgi.com
+                <a href="mailto:sales@consultaventra.com" className="text-[#E31937] hover:underline">
+                  sales@consultaventra.com
                 </a>
               </p>
               <p>
-                <strong>Phone:</strong> +1 514 841 3355
+                <strong>Phone:</strong> +91 8713001002
               </p>
             </div>
             <div className="mt-8">
@@ -209,7 +209,7 @@ const NewsPage = () => {
       </section>
 
       {/* Subscribe Section */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Stay informed
@@ -231,7 +231,7 @@ const NewsPage = () => {
             </button>
           </form>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
