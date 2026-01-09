@@ -20,23 +20,23 @@ const Header = () => {
       name: 'Services',
       items: [
         { name: 'Core Tech Expertise', link: '/services#core-tech-expertise' },
-        { name: 'Business process services', link: '/services#business-process-services' },
-        { name: 'Managed IT services', link: '/services#managed-it-services' },
+        { name: 'Enterprise Solutions', link: '/services#enterprise-solutions' },
+        { name: 'IT Consulting', link: '/services#it-consulting' },
+        { name: 'Business consulting', link: '/services#business-consulting' },
         { name: 'Artificial intelligence', link: '/services#artificial-intelligence' },
-        { name: 'Data analytics', link: '/services#data-analytics' },
-        { name: 'Cloud & hybrid IT', link: '/services#cloud-hybrid-it' },
+        { name: 'Business process services', link: '/services#business-process-services' },
         { name: 'View all services', link: '/services', featured: true }
       ]
     },
     {
       name: 'Industries',
       items: [
+        { name: 'IT', link: '/industries#it' },
+        { name: 'Manufacturing', link: '/industries#manufacturing' },
+        { name: 'Energy & utilities', link: '/industries#energy-utilities' },
+        { name: 'Oil And Gas', link: '/industries#oil-gas' },
         { name: 'Banking', link: '/industries#banking' },
         { name: 'Government', link: '/industries#government' },
-        { name: 'Health', link: '/industries#health' },
-        { name: 'Manufacturing', link: '/industries#manufacturing' },
-        { name: 'Retail', link: '/industries#retail' },
-        { name: 'Energy & utilities', link: '/industries#energy-utilities' },
         { name: 'View all industries', link: '/industries', featured: true }
       ]
     },

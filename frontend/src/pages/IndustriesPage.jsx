@@ -5,6 +5,34 @@ import { ArrowRight } from 'lucide-react';
 const IndustriesPage = () => {
   const industriesData = [
     {
+      name: 'IT',
+      description: 'Integrated IT solutions delivering reliability, innovation, and scalable digital infrastructure for modern enterprises',
+      image: 'https://plus.unsplash.com/premium_photo-1664302457363-3930f2c9f10c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '/industries/energy',
+      sectionId: 'it'
+    },
+    {
+      name: 'Manufacturing',
+      description: 'Enabling manufacturers to optimize operations, improve supply chain visibility, and embrace Industry 4.0.',
+      image: 'https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600&h=400&fit=crop',
+      link: '/industries/manufacturing',
+      sectionId: 'manufacturing'
+    },
+    {
+      name: 'Energy & utilities',
+      description: 'Supporting energy and utility companies in their transition to sustainable, digital-first operations.',
+      image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=400&fit=crop',
+      link: '/industries/energy',
+      sectionId: 'energy-utilities'
+    },
+     {
+      name: 'Oil And Gas',
+      description: 'Comprehensive oil and gas consulting solutions optimizing operations, safety, compliance, and energy efficiency',
+      image: 'https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?q=80&w=849&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '/industries/energy',
+      sectionId: 'oil-gas'
+    },
+    {
       name: 'Banking',
       description: 'Helping financial institutions modernize operations, enhance customer experiences, and navigate regulatory challenges.',
       image: 'https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=600&h=400&fit=crop',
@@ -25,40 +53,13 @@ const IndustriesPage = () => {
       link: '/industries/health',
       sectionId: 'health'
     },
-    {
-      name: 'Manufacturing',
-      description: 'Enabling manufacturers to optimize operations, improve supply chain visibility, and embrace Industry 4.0.',
-      image: 'https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600&h=400&fit=crop',
-      link: '/industries/manufacturing',
-      sectionId: 'manufacturing'
-    },
+    
     {
       name: 'Retail',
       description: 'Helping retailers create seamless omnichannel experiences and adapt to changing consumer expectations.',
       image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop',
       link: '/industries/retail',
       sectionId: 'retail'
-    },
-    {
-      name: 'Energy & utilities',
-      description: 'Supporting energy and utility companies in their transition to sustainable, digital-first operations.',
-      image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=400&fit=crop',
-      link: '/industries/energy',
-      sectionId: 'energy-utilities'
-    },
-    {
-      name: 'Oil And Gas',
-      description: 'Comprehensive oil and gas consulting solutions optimizing operations, safety, compliance, and energy efficiency',
-      image: 'https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?q=80&w=849&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      link: '/industries/energy',
-      sectionId: 'oil-gas'
-    },
-    {
-      name: 'IT',
-      description: 'Integrated IT solutions delivering reliability, innovation, and scalable digital infrastructure for modern enterprises',
-      image: 'https://plus.unsplash.com/premium_photo-1664302457363-3930f2c9f10c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      link: '/industries/energy',
-      sectionId: 'it'
     },
     {
       name: 'Insurance',

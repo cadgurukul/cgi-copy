@@ -7,7 +7,7 @@ export const heroSlides = [
   //   description: "With our help, MAPFRE USA migrated to a modern core platform, driving faster claims, better underwriting and data-powered growth.",
   //   cta: "Read the client success story",
   //   link: "/case-studies/mapfre",
-  //   image: "https://plus.unsplash.com/premium_photo-1683134291977-713a1f1d0980?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dp"
+  //   image: "https://plus.unsplash.com/premium_photo-1661963957167-8296092da19c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   // },
   {
     id: 1,
@@ -15,7 +15,7 @@ export const heroSlides = [
     description: "Explore bold human-centered AI thinking, practical expert insights and success stories that help clients accelerate innovation confidently.",
     cta: "Explore the ideas driving smarter, human-led innovation",
     link: "/insights/ai",
-    image: "https://plus.unsplash.com/premium_photo-1661963957167-8296092da19c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "https://plus.unsplash.com/premium_photo-1683134291977-713a1f1d0980?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dp"
   },
   // {
   //   id: 3,
@@ -232,23 +232,23 @@ export const careerRoles = [
 export const teamMembers = [
   {
     id: 1,
-    name: "Vikas Grover",
+    name: "Vikkas Grover",
     designation: "President & Chief Executive Officer",
-    bio: "Leading Aventra Consulting Inc.'s global vision with focus on innovation, client partnerships, and sustainable growth strategies.",
+    bio: "Leading Aventra Consulting Inc.'s global vision with focus on innovation, client partnerships, and Go to Marketing strategies.",
     image: "./team/CEO.jpg"
   },
   {
     id: 2,
     name: "Deepinti Grover",
     designation: "Executive Vice-President & COO",
-    bio: "Driving operational transformation, service delivery excellence, and ensuring client satisfaction across global operations.",
+    bio: "Driving operational transformation, service delivery excellence,customer management expertise and ensuring client satisfaction across global operations.",
     image: "./team/COO.jpg"
   },
   {
     id: 3,
     name: "Rovil Mahajan",
     designation: "Chief Operating Officer",
-    bio: "Overseeing financial strategy, investor relations, and operational excellence across all CGI business units worldwide.",
+    bio: "Overseeing financial strategy, investor relations, and operational excellence across Aventra consulting revenue and P/L management.",
     image: "./team/CFO.png"
   },
   

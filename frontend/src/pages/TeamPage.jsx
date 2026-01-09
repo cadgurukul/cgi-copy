@@ -21,19 +21,19 @@ const TeamPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-[#E31937] mb-2">100+</div>
+              <div className="text-4xl font-bold text-[#E31937] mb-2">20+</div>
               <div className="text-gray-700">Team Members Globally</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#E31937] mb-2">20+</div>
+              <div className="text-4xl font-bold text-[#E31937] mb-2">5+</div>
               <div className="text-gray-700">Countries</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#E31937] mb-2">40+</div>
+              <div className="text-4xl font-bold text-[#E31937] mb-2">3+</div>
               <div className="text-gray-700">Locations</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#E31937] mb-2">15+</div>
+              <div className="text-4xl font-bold text-[#E31937] mb-2">20+</div>
               <div className="text-gray-700">Years of Excellence</div>
             </div>
           </div>
@@ -142,13 +142,14 @@ const TeamPage = () => {
             </h2>
             <p className="text-lg text-gray-700">
               We believe diverse perspectives drive innovation. Our leadership reflects our commitment to building an inclusive workplace where everyone can thrive and contribute to our shared success.
+              While we are working from India, we respect each and every culture and focussed on onboarding members from across nationalities and cultures to enhance our diversity.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-[#E31937] text-white rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold">40%</span>
+                <span className="text-2xl font-bold">35%</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Women in Leadership
@@ -160,7 +161,7 @@ const TeamPage = () => {
 
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-[#E31937] text-white rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold">75+</span>
+                <span className="text-2xl font-bold">3+</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Nationalities
