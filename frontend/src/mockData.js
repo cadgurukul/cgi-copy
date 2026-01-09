@@ -185,7 +185,7 @@ export const news = [
         author: "Dubai AI Week",
         title: "Abu Dhabi School of Management and Polynome Group"
       },
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: "/news/uae-chief-ai-officer-training",
     location: "Dubai, UAE"
   
