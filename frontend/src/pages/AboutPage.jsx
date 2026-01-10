@@ -69,13 +69,13 @@ const AboutPage = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our story</h2>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  Since our founding in 2025, Aventra Consulting has grown from a small Canadian startup to one of the world's largest independent IT and business consulting services firms.
+                  Since our founding in 2025, Aventra Consulting has grown from a small Indian startup to one of the mmost innovative independent IT and business consulting services firms.
                 </p>
                 <p>
                   Our success is built on a unique member-owner culture where our professionals are also shareholders. This structure aligns our interests with those of our clients and ensures long-term commitment to quality and excellence.
                 </p>
                 <p>
-                  Today, we operate in hundreds of locations across the globe, serving thousands of clients in virtually every industry. Our proximity model ensures we're always close to our clients, understanding their unique challenges and opportunities.
+                  Today, we operate from India, serving top clients in virtually every major country. Our proximity model ensures we're always close to our clients, understanding their unique challenges and opportunities.
                 </p>
               </div>
             </div>
