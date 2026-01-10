@@ -32,7 +32,7 @@ const CareersPage = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Aventra Consulting?</h2>
               <p className="text-lg text-gray-700 mb-6">
-                As one of the world's largest IT and business consulting firms, we offer unparalleled opportunities for professional growth and development. Our member-owner culture ensures that everyone has a voice and a stake in our success.
+                As one of the fast growiing IT and business consulting firms, we offer unparalleled opportunities for professional growth and development. Our member-owner culture ensures that everyone has a voice and a stake in our success.
               </p>
               <ul className="space-y-3">
                 {benefits.map((benefit) => (
