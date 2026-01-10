@@ -244,7 +244,7 @@ We will respond to your inquiry within a reasonable timeframe and in accordance 
             If you have any questions or concerns about our privacy practices, we are here to help.
           </p>
           <a
-            href="mailto:privacy@aventraconsulting.com"
+            href="/contact"
             className="inline-block bg-[#E31937] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#C01530] transition-colors"
           >
             Contact Privacy Office
