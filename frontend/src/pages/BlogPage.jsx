@@ -160,7 +160,7 @@ const BlogPage = () => {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-16 bg-[#F8F8F8]">
+      {/* <section className="py-16 bg-[#F8F8F8]">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Stay informed with our insights
@@ -182,7 +182,7 @@ const BlogPage = () => {
             </button>
           </form>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 bg-[#1A1A1A] text-white">

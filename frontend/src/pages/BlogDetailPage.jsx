@@ -104,11 +104,11 @@ const BlogDetailPage = () => {
           <div className="prose prose-lg max-w-none">
             {/* Introduction */}
             <p className="text-xl text-gray-700 leading-relaxed mb-8 font-medium">
-              {articleContent.introduction}
+              {post.article.introduction}
             </p>
 
             {/* Sections */}
-            {articleContent.sections.map((section, index) => (
+            {post.article.sections.map((section, index) => (
               <div key={index} className="mb-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">
                   {section.title}
@@ -123,7 +123,7 @@ const BlogDetailPage = () => {
             <div className="mt-12 p-6 bg-[#F8F8F8] border-l-4 border-[#E31937] rounded">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Takeaway</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                {articleContent.conclusion}
+                {post.article.conclusion}
               </p>
             </div>
           </div>

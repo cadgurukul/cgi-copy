@@ -196,41 +196,125 @@ export const blogPosts = [
   {
     id: 1,
     title: "The Future of AI in Enterprise: Beyond the Hype",
-    author: "Sarah Mitchell",
-    authorRole: "Chief AI Strategist",
+    author: "Vikkas Grover",
+    authorRole: "CEO & Founder, Aventra Consulting Inc.",
     date: "January 18, 2025",
     readTime: "8 min read",
     category: "Artificial Intelligence",
     excerpt: "Exploring practical AI implementations that deliver measurable business value while addressing ethical considerations and governance challenges in enterprise environments.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
     tags: ["AI", "Machine Learning", "Enterprise Technology"],
-    link: "/blog/future-of-ai-enterprise"
+    link: "/blog/future-of-ai-enterprise",
+    article: {
+    introduction: "In today's rapidly evolving technological landscape, artificial intelligence has transcended from a buzzword to a fundamental business imperative. Organizations worldwide are investing billions in AI initiatives, yet many struggle to translate these investments into tangible business outcomes. This comprehensive analysis explores the practical implementation strategies that separate successful AI adopters from those still searching for value.",
+    
+    sections: [
+      {
+        title: "Understanding the AI Maturity Curve",
+        content: "Organizations typically progress through distinct phases in their AI journey: experimentation, pilot programs, scaled deployment, and optimization. Understanding where your organization sits on this curve is crucial for setting realistic expectations and allocating resources effectively. Many enterprises make the mistake of attempting to scale before establishing solid foundations in data quality and organizational readiness."
+      },
+      {
+        title: "The Data Foundation Challenge",
+        content: "High-quality AI outcomes require high-quality data inputs. Organizations must invest in robust data governance frameworks, establish clear data ownership, and implement stringent quality control measures. The most successful AI implementations begin not with algorithms, but with a comprehensive data strategy that addresses collection, storage, processing, and accessibility across the enterprise."
+      },
+      {
+        title: "Ethical Considerations and Governance",
+        content: "As AI systems increasingly influence business decisions, establishing ethical guidelines and governance frameworks becomes paramount. Organizations must address bias in training data, ensure transparency in algorithmic decision-making, and maintain human oversight for critical processes. Building trust with stakeholders requires demonstrating responsible AI practices from the outset."
+      },
+      {
+        title: "Building Cross-Functional AI Teams",
+        content: "Successful AI initiatives require collaboration between data scientists, domain experts, IT professionals, and business leaders. Organizations should invest in upskilling existing workforce while strategically hiring specialized talent. Creating a culture that embraces experimentation and learns from failures is equally important as technical capabilities."
+      },
+      {
+        title: "Measuring ROI and Business Impact",
+        content: "Establishing clear metrics for AI success goes beyond technical performance indicators. Organizations must define business KPIs that demonstrate tangible value: revenue growth, cost reduction, improved customer satisfaction, or operational efficiency gains. Regular assessment and course correction ensure AI investments deliver measurable returns."
+      }
+    ],
+    
+    conclusion: "The path from AI experimentation to enterprise-wide value creation requires strategic thinking, robust infrastructure, and organizational commitment. By focusing on practical implementation over technological hype, addressing ethical considerations proactively, and maintaining clear business alignment, organizations can unlock AI's transformative potential while managing associated risks effectively."
+  }
   },
   {
     id: 2,
-    title: "Cloud Migration Strategies for Legacy Systems: A Comprehensive Guide",
-    author: "Michael Chen",
+    title: "The Future of ITSM: Emerging Trends and Innovations to Watch Out For",
+    author: "Nimit Gupta",
     authorRole: "Cloud Solutions Architect",
-    date: "January 12, 2025",
+    date: "August 12, 2025",
     readTime: "12 min read",
     category: "Cloud Computing",
-    excerpt: "Learn proven strategies for migrating legacy systems to the cloud while minimizing risk, reducing downtime, and ensuring business continuity throughout the transformation journey.",
+    excerpt: "A deep dive into the evolving landscape of IT Service Management (ITSM), highlighting key trends such as AI integration, automation, and cloud-native solutions that are shaping the future of ITSM.",
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
-    tags: ["Cloud", "Digital Transformation", "Legacy Modernization"],
-    link: "/blog/cloud-migration-strategies"
+    tags: ["ITSM", "Cloud Computing", "Automation"],
+    link: "/blog/future-of-itsm",
+    article: {
+    introduction: "Curious about the future of IT service management (ITSM)? Imagine a world where technology seamlessly anticipates your needs, resolves issues before they arise, and delivers exceptional user experiences. The landscape of ITSM is rapidly evolving, with emerging trends and innovations paving the way for a more efficient and customer-centric approach to managing IT services. ",
+    
+    sections: [
+      {
+        title: "Introduction to IT Service Management and its Importance ",
+        content: "In today's digital age, IT Service Management (ITSM) plays a crucial role in organizations of all sizes and industries. It involves the processes, policies, and tools used to design, deliver, manage, and improve IT services within an organization. ITSM ensures that IT services are aligned with business goals and meet the needs of customers and end-users. "
+      },
+      {
+        title: "Navigating the Digital Age: Trends Shaping IT Service Management",
+        content: "In today's rapidly evolving digital age, IT Service Management (ITSM) is experiencing a significant transformation driven by emerging trends and innovative technologies. Organizations must adapt to these changes to stay ahead and provide efficient and effective IT services. Let's explore the key trends shaping ITSM and how they are revolutionizing the industry. "
+      },
+      {
+        title: "AI Integration: Enhancing Efficiency and Productivity ",
+        content: "Artificial Intelligence (AI) integration revolutionizes ITSM processes by automating routine tasks, optimizing workflows, and improving decision-making. AI-powered chatbots, for example, enable self-service options and provide quick resolutions for common user queries. Machine learning algorithms analyze vast amounts of data to identify patterns and trends, enhancing problem-solving capabilities and enabling proactive IT support. "
+      },
+      {
+        title: "Machine Learning: Predictive and Prescriptive Insights",
+        content: "Machine learning algorithms enable ITSM to move beyond reactive approaches to a more proactive and predictive model. By analyzing historical data, machine learning algorithms can identify and predict potential issues, leading to early intervention and prevention. This not only enhances service delivery but also helps organizations optimize their IT infrastructure and resources. "
+      },
+      {
+        title: "Digital Transformation: Embracing Innovation ",
+        content: "Digital transformation has become a key priority for organizations seeking to stay competitive in the digital age. Organizations can streamline processes, improve efficiency, and enhance the overall IT service delivery experience by adopting cloud computing, automation, and other emerging technologies. Digital transformation allows for scalability, flexibility, and agility, enabling organizations to adapt to changing customer needs and market dynamics. It is crucial for IT Service Management to evolve and embrace these trends. As organizations navigate the digital age, they must integrate AI, leverage machine learning capabilities, and embark on digital transformation journeys. By doing so, they can provide exceptional service experiences, optimize processes, and position themselves as innovative leaders in the industry. Remember to stay up-to-date with the latest trends and innovations in ITSM, as they are constantly evolving and shaping the future of IT service delivery. To navigate the digital age successfully, embrace the opportunities presented by AI, machine learning, and digital transformation."     
+       }
+    ],
+    
+    conclusion: "In conclusion, staying ahead in the rapidly evolving field of IT Service Management requires organizations to embrace the latest trends and innovations. By understanding and leveraging these advancements, businesses can navigate the digital age and ensure success in the modern world. "
+  }
   },
   {
     id: 3,
-    title: "Cybersecurity in 2025: Emerging Threats and Defense Strategies",
-    author: "Jennifer Rodriguez",
+    title: "Navigating Cybersecurity in 2026: A Deep Dive into Trends, Statistics and Strategies for Enterprises, SMBs & BFSI/NBFCs",
+    author: " Denise",
     authorRole: "Head of Cybersecurity",
-    date: "January 5, 2025",
+    date: "January 5, 2026",
     readTime: "10 min read",
     category: "Cybersecurity",
-    excerpt: "An in-depth analysis of evolving cyber threats including AI-powered attacks, ransomware trends, and comprehensive security frameworks to protect modern enterprises.",
+    excerpt: "The cybersecurity landscape has evolved dramatically. A decade ago cybercrime was a costly nuisance; today it is a national‑security threat and a billion‑dollar industry in its own right.",
     image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
     tags: ["Cybersecurity", "Risk Management", "Zero Trust"],
-    link: "/blog/cybersecurity-2025"
+    link: "/blog/cybersecurity-2026",
+    article: {
+    introduction: "The stakes are especially high for enterprises, small and medium businesses (SMBs), startups and financial institutions because digitisation, cloud adoption and remote work have expanded the attack surface. In this article we analyse 2025–2026 cybersecurity trends with the latest statistics, expert opinions, case studies and emerging tools to help you build a resilient security posture.",
+    
+    sections: [
+      {
+        title: "Why 2026 Matters",
+        content: "By 2025 cybercrime will cost the world US$10.5 trillion, up from US$3 trillion in 2015 [source link]. This staggering growth underscores that no industry is safe. More organisations are turning to digital transformation and artificial intelligence (AI) to stay competitive, yet these technologies introduce new attack vectors. Bank fraud in India alone increased tenfold—from USD 2.94 million (2014–15) to USD 21.24 million (2023–24) [source link]. Knowing the trends and preparing proactively can mean the difference between thriving and becoming tomorrow’s headline."
+      },
+      {
+        title: "Enterprise Cybersecurity Trends for 2026",
+        content: " Attackers are leveraging generative AI to craft more convincing phishing messages, deepfake voice & video impersonations and automated exploitation tools [source link]. In response, enterprises are adopting defensive AI and machine learning to detect anomalies, automate incident response and predict emerging threats. AI is also used to maintain continuous compliance with complex regulations."
+      },
+      {
+        title: "Cybersecurity Challenges for SMBs & Startups",
+        content: "Contrary to popular belief, small businesses are prime targets because they often lack mature security programs. Key statistics and trends: 43% of cyberattacks target SMBs . 60% of SMBs go out of business within six months of a cyberattack . SMBs must prioritise basic hygiene: patch management, employee training, multi-factor authentication (MFA) and regular backups. Leveraging managed security services can provide enterprise-grade protection without the overhead of building in-house capabilities."
+      },
+      {
+        title: "SMB & Startup Trends",
+        content: "Case Study – Small Healthcare Provider (DaVita): In April 2025 dialysis provider DaVita suffered a ransomware attack affecting 2.7 million individuals [link]. The disruption highlighted the vulnerability of small healthcare organisations and the importance of robust backups and ransomware response plans."
+      },
+      {
+        title: "BFSI & NBFC: Digital Trust under Attack",
+        content: "Banking, financial services and insurance (BFSI), along with Non‑Banking Financial Companies (NBFCs), handle sensitive data and are prime targets for fraud and cyber espionage. Trends include: Increased regulatory scrutiny with frameworks like GDPR, CCPA and PSD2 mandating stringent data protection measures. Rise of fintech partnerships introducing third-party risk. Growing adoption of zero-trust architectures to minimise insider threats and lateral movement within networks."
+      }
+    ],
+    
+    conclusion: "As cybersecurity evolves in 2026, organisations of all sizes must adapt to an increasingly complex threat landscape defined by AI-driven attacks, cloud and supply-chain risks, and persistent social engineering. Zero-trust frameworks, continuous compliance, and proactive risk management are essential. SMBs benefit from outsourced security services and modern authentication, while enterprises must integrate layered defences. Building a resilient security culture and leveraging emerging tools will determine success in defending against sophisticated, high-impact threats throughout the year."
+  }
   }
 ];
 
