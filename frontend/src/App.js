@@ -16,6 +16,7 @@ import NewsPage from './pages/NewsPage';
 import TeamPage from './pages/TeamPage';
 import BlogDetailPage from './pages/BlogDetailPage';
 import NewsDetailPage from './pages/NewsDetailPage';
+import PrivacyPage from './pages/PrivacyPage';
 
 // Component to handle scrolling to hash sections
 const ScrollToHash = () => {
@@ -72,8 +73,9 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
            <Route path="/blog/:blogId" element={<BlogDetailPage />} />
           <Route path="/news" element={<NewsPage />} />
-           <Route path="/news/:newsId" element={<NewsDetailPage />} />
+          <Route path="/news/:newsId" element={<NewsDetailPage />} />
           <Route path="/team" element={<TeamPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
