@@ -90,9 +90,9 @@ const Footer = () => {
 
             <div className="flex flex-wrap justify-center md:justify-end items-center space-x-6 text-sm text-gray-400">
               <Link to="/privacy" className="hover:text-white transition-colors">Privacy</Link>
-              <Link to="/legal" className="hover:text-white transition-colors">Legal</Link>
-              <Link to="/accessibility" className="hover:text-white transition-colors">Accessibility</Link>
-              <Link to="/sitemap" className="hover:text-white transition-colors">Sitemap</Link>
+              {/* <Link to="/legal" className="hover:text-white transition-colors">Legal</Link> */}
+              {/* <Link to="/accessibility" className="hover:text-white transition-colors">Accessibility</Link> */}
+              {/* <Link to="/sitemap" className="hover:text-white transition-colors">Sitemap</Link> */}
             </div>
           </div>
 
