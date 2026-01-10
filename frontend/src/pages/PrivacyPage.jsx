@@ -144,8 +144,8 @@ We encourage you to review this Privacy Policy periodically to stay informed abo
 
 **Aventra Consulting Inc.**
 Privacy Office
-Email: privacy@aventraconsulting.com
-Phone: +91 98718 33119
+Email: sales@consultaventra.com
+Phone: +91 8713001002
 
 We will respond to your inquiry within a reasonable timeframe and in accordance with applicable laws.`
     }
